@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { IdCurrencyPipe } from '@shared/pipes/id-currency.pipe';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
@@ -16,6 +16,7 @@ import { IdCurrencyPipe } from '@shared/pipes/id-currency.pipe';
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

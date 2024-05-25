@@ -3,10 +3,11 @@
     currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" (onPage)="pageChange($event)"
     [rowsPerPageOptions]="[10, 25, 50]"
     [globalFilterFields]="['username', 'employeeName', 'email', 'address', 'phoneNumber', 'birthDate', 'basicSalary', 'status', 'group.groupName']"
-    [paginator]="true" [loading]="loading">
+    [paginator]="true"
+    [loading]="loading">
     <ng-template pTemplate="caption">
         <div class="flex">
-            <p-button label="Clear" [outlined]="true" icon="pi pi-filter-slash" (click)="clear(dt1)" />
+            <p-button label="Clear" [outlined]="true" icon="pi pi-filter-slash" (click)="clear(dt1)" class="bg-blue-500 px-4 py-3 rounded-xl text-white"/>
             <span class="p-input-icon-left ml-auto border-2 rounded-lg">
                 <i class="pi pi-search"></i>
                 <input pInputText class="pl-8 p-2" type="text" [(ngModel)]="searchValue"
@@ -16,28 +17,28 @@
     </ng-template>
     <ng-template pTemplate="header">
         <tr>
-            <th style="min-width:3rem">
+            <!-- <th style="min-width:3rem">
                 <div class="flex items-center">#</div>
-            </th>
-            <th pSortableColumn="username" style="min-width:5rem">
+            </th> -->
+            <!-- <th pSortableColumn="username" style="min-width:5rem">
                 <div class="flex items-center">
                     Username
                     <p-sortIcon field="username"></p-sortIcon>
                 </div>
-            </th>
+            </th> -->
             <th pSortableColumn="employeeName" style="min-width:15rem">
                 <div class="flex items-center">
                     Name
                     <p-sortIcon field="employeeName"></p-sortIcon>
                 </div>
             </th>
-            <th pSortableColumn="email" style="max-width:5rem">
+            <!-- <th pSortableColumn="email" style="max-width:5rem">
                 <div class="flex items-center">
                     Email
                     <p-sortIcon field="email"></p-sortIcon>
                 </div>
-            </th>
-            <th pSortableColumn="address" style="min-width:10rem">
+            </th> -->
+            <!-- <th pSortableColumn="address" style="min-width:10rem">
                 <div class="flex items-center">
                     Address
                     <p-sortIcon field="address"></p-sortIcon>
@@ -54,7 +55,7 @@
                     Birth Date
                     <p-sortIcon field="birthDate"></p-sortIcon>
                 </div>
-            </th>
+            </th> -->
             <th pSortableColumn="basicSalary" style="min-width:12rem">
                 <div class="flex items-center">
                     Salary
@@ -80,13 +81,13 @@
     </ng-template>
     <ng-template pTemplate="body" let-emp let-i="rowIndex">
         <tr>
-            <td>{{ i + 1 + (dt1.first || 0) }}</td>
-            <td>{{ emp.username }}</td>
+            <!-- <td>{{ i + 1 + (dt1.first || 0) }}</td> -->
+            <!-- <td>{{ emp.username }}</td> -->
             <td>{{ emp.employeeName }}</td>
-            <td>{{ emp.email }}</td>
-            <td>{{ emp.address }}</td>
+            <!-- <td>{{ emp.email }}</td> -->
+            <!-- <td>{{ emp.address }}</td>
             <td>{{ emp.phoneNumber }}</td>
-            <td>{{ emp.birthDate }}</td>
+            <td>{{ emp.birthDate }}</td> -->
             <td>{{ emp.basicSalary | idCurrency }}</td>
             <td>{{ emp.status }}</td>
             <td>{{ emp.group.groupName }}</td>

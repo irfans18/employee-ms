@@ -36,7 +36,7 @@ const components = [
     TagModule,
     IconFieldModule,
     ButtonModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [EmployeeService],
 })
