@@ -1,0 +1,14 @@
+<p (click)="goBack()" class=" p-4 underline text-black rounded-lg" >
+    <i class="pi pi-arrow-left text-sm"></i>
+    Back</p>
+<div class="flex w-screen justify-center ">
+    <div class="card flex justify-content-center rounded-lg py-4 pt-10">
+        <p-card header="Employee Detail" subheader="{{emp.employeeName}}" [style]="{ width: '360px' }">
+            <p>Username : {{emp.username}} </p>
+            <p>Email : {{emp.email}} </p>
+            <p>Nomor HP : {{emp.phoneNumber}} </p>
+            <p>Status : {{emp.status}} </p>
+            <p>Salary : {{emp.basicSalary | idCurrency}} </p>
+        </p-card>
+    </div>
+</div>
