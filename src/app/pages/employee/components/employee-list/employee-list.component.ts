@@ -10,10 +10,10 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./employee-list.component.scss'],
   providers: [EmployeeService],
 })
-export class EmployeeListComponent implements OnInit,AfterViewInit {
+export class EmployeeListComponent implements OnInit,AfterViewInit, OnChanges {
   loading: boolean = true;
   @Input() searchValue: string = '';
-  @ViewChild('dt1') table: any; // Reference to the p-table
+  @ViewChild('dt1') table: any; 
 
   employees: IEmployee[] = [];
   first = 0;
@@ -27,10 +27,11 @@ export class EmployeeListComponent implements OnInit,AfterViewInit {
     private readonly route: ActivatedRoute,
 
   ) { }
+  ngOnChanges(changes: SimpleChanges): void {
+    this.employees = this.employeeService.getAll();
+  }
   ngAfterViewInit(): void {
-    console.log('Table:', this.table); // Now this should log the table instance
-    this.table.filterGlobal(this.searchValue, 'contains');
-    this.table._first = 200;
+    console.log('Table:', this.table);
   }
 
   ngOnInit(): void {

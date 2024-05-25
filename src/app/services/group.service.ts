@@ -10,4 +10,8 @@ export class GroupService {
   constructor() { 
     this.data = groups;
   }
+
+  getAll(){
+    return this.data.data;
+  }
 }

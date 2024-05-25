@@ -1,20 +1,22 @@
 <p-table #dt1 [value]="employees" dataKey="id" [rows]="rows" [first]="first" [showCurrentPageReport]="true"
-    [tableStyle]="{ 'min-width': '50rem' }"
-    [rowHover]="true"
+    [tableStyle]="{ 'min-width': '50rem' }" [rowHover]="true"
     currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" (onPage)="pageChange($event)"
     [rowsPerPageOptions]="[10, 25, 50]"
     [globalFilterFields]="['username', 'employeeName', 'email', 'address', 'phoneNumber', 'birthDate', 'basicSalary', 'status', 'group.groupName']"
     [paginator]="true" [loading]="loading" stateStorage="session" stateKey="statedemo-session">
     <ng-template pTemplate="caption">
         <div class="flex">
-            <p-button label="Clear" [outlined]="true" (click)="clear(dt1)"
-                class="bg-blue-500 px-4 py-3 rounded-xl text-white">
-                <i class="pi pi-filter-slash"></i></p-button>
-            <span class="p-input-icon-left ml-auto border-2 rounded-lg">
-                <i class="pi pi-search"></i>
-                <input pInputText class="pl-8 p-2" type="text" [(ngModel)]="searchValue"
-                    (input)="filterGlobal(dt1, $event)" placeholder="Search keyword" />
-            </span>
+            <a routerLink="/employee/new" class="bg-blue-500 px-4 py-3 rounded-xl text-white">Add Employee</a>
+            <div class="flex ml-auto space-x-4">
+                <p-button label="Clear" [outlined]="true" (click)="clear(dt1)"
+                    class="bg-slate-500 px-4 py-3 rounded-xl text-white">
+                    <i class="pi pi-filter-slash"></i></p-button>
+                    <span class="p-input-icon-left border-2 rounded-lg">
+                        <i class="pi pi-search"></i>
+                        <input pInputText class="pl-8 p-2" type="text" [(ngModel)]="searchValue"
+                            (input)="filterGlobal(dt1, $event)" placeholder="Search keyword" />
+                    </span>
+            </div>
         </div>
     </ng-template>
     <ng-template pTemplate="header">

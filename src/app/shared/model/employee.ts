@@ -10,4 +10,5 @@ export interface IEmployee {
     status: string
     group: any
     createdAt?: string
+    description?: string
 }

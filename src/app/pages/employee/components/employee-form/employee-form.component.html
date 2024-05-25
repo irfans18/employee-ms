@@ -1,1 +1,136 @@
-<p>employee-form works!</p>
+<div class="flex w-screen h-dvh justify-center items-center bg-slate-400">
+    <!-- <p (click)="goBack()" class=" p-4 underline text-black rounded-lg" >
+        <i class="pi pi-arrow-left text-sm"></i>
+        Back</p> -->
+    <div class="flex w-screen justify-center ">
+        <div class="card flex justify-content-center rounded-lg py-4 pt-10">
+            <p-card header="New Employee" class="w-full">
+                <form [formGroup]="createForm" (ngSubmit)="onSubmit()" class="flex space-x-5">
+                    <div class="flex flex-col space-y-5">
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="username" class="p-2 w-[14rem]" formControlName="username" />
+                                <label for="username">Username</label>
+                            </p-floatLabel>
+                        </div>
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="firstName" type="text" class="p-2 w-[14rem]"
+                                    formControlName="firstName" />
+                                <label for="firstName">First Name</label>
+                            </p-floatLabel>
+                        </div>
+
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="lastName" type="text" class="p-2 w-[14rem]"
+                                    formControlName="lastName" />
+                                <label for="lastName">Last Name</label>
+                            </p-floatLabel>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col space-y-5">
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="email" type="email" class="p-2 w-[14rem]"
+                                    formControlName="email" />
+                                <label for="email">Email </label>
+                            </p-floatLabel>
+                        </div>
+
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <p-calendar [showIcon]="true" [showOnFocus]="false" [maxDate]="maxDate"
+                                    dateFormat="dd/mm/yy" inputId="buttondisplay" formControlName="birthDate" />
+                                <label for="birthDate">Birth Date</label>
+                            </p-floatLabel>
+                        </div>
+
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="basicSalary" type="number" class="p-2 w-[14rem]"
+                                    formControlName="basicSalary" />
+                                <label for="basicSalary">Basic Salary</label>
+                            </p-floatLabel>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col space-y-5">
+
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="status" type="text" class="p-2 w-[14rem]"
+                                    formControlName="status" />
+                                <label for="status">Status</label>
+                            </p-floatLabel>
+                        </div>
+
+                        <div class="flex border-2 rounded-lg">
+                            <p-dropdown id="group" [options]="groups" [(ngModel)]="selectedGroup"
+                                optionLabel="groupName" placeholder="Select a City" formControlName="group" />
+                        </div>
+
+                        <div class="flex justify-content-center border-2 rounded-lg">
+                            <p-floatLabel>
+                                <input pInputText id="description" type="text" class="p-2 w-[14rem]" [disabled]="true"
+                                    formControlName="description" [(ngModel)]="description" />
+                                <label for="description">Description</label>
+                            </p-floatLabel>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col space-y-5">
+                        <p (click)="goBack()"
+                            class="bg-red-500 text-center cursor-pointer p-2 h-10 w-[14rem] px-5 text-indigo-100 transition-colors duration-150 focus:shadow-outline hover:bg-red-600 rounded-lg">
+                            Cancel
+                        </p>
+                        <button type="submit"
+                            class="bg-blue-600 p-2 h-10 w-[14rem] px-5 text-indigo-100 transition-colors duration-150 focus:shadow-outline hover:bg-blue-700 rounded-lg">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </p-card>
+        </div>
+    </div>
+    <!-- <div class="flex flex-col w-1/2 h-4/5 justify-center items-center bg-white rounded-3xl">
+        <h1 class="text-4xl text-slate-500 mb-10">New Employee</h1>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="flex flex-col space-y-6">
+            <div class="flex justify-content-center border-2 rounded-lg">
+                <p-floatLabel>
+                    <input 
+                    pInputText id="username" 
+                    class="p-2 w-[14rem]"
+                    formControlName="username"
+                    />
+                    <label for="username">Username</label>
+                </p-floatLabel>
+            </div>
+            <div class="flex justify-content-center border-2 rounded-lg">
+                <p-floatLabel>
+                    <input 
+                    pInputText 
+                    id="password" 
+                    type="password" 
+                    class="p-2 w-[14rem]"
+                    formControlName="password"
+                     />
+                    <label for="password">Password</label>
+                </p-floatLabel>
+            </div>
+            <div class="flex">
+
+                <button 
+                    class="bg-red-400 p-2 h-10 w-[14rem] px-5 text-indigo-100 transition-colors duration-150 focus:shadow-outline hover:bg-red-600 rounded-lg">
+                    Cancel
+                </button>
+                <button type="submit"
+                    class="bg-blue-500 p-2 h-10 w-[14rem] px-5 text-indigo-100 transition-colors duration-150 focus:shadow-outline hover:bg-blue-600 rounded-lg">
+                    Login
+                </button>
+            </div>
+        </form>
+    </div> -->
+
+</div>
