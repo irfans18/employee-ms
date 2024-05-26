@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { EmployeeService } from '@services/employee.service';
 import { Table } from 'primeng/table';
 import { IEmployee } from '../../../../shared/model/employee';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-employee-list',
@@ -70,16 +71,50 @@ export class EmployeeListComponent implements OnInit, AfterViewInit {
     this.router.navigate(['/employee']);
   }
   deleteEmployee(emp: IEmployee) {
-    this.employeeService.deleteById(emp.id as string);
+    // this.employeeService.deleteById(emp.id as string);
+    const timer = setInterval(() => {
+      Swal.close();
+      clearInterval(timer);
+    }, 1500);
+    Swal.fire({
+      title: 'Delete Employee',
+      text: 'Delete employee is not allowed because now is under development',
+      icon: 'error',
+      iconColor: '#dc3545',
+      color: '#fffffe',
+      background: '#FF8383',
+      // confirmButtonColor: '#dc3545',
+      // confirmButtonText: 'OK',
+      showConfirmButton: false,
+
+    }).then(res => {
+    });
   }
 
   editEmployee(employee: IEmployee) {
-    this.employeeService.edit(employee);
+    // this.employeeService.edit(employee);
+    const timer = setInterval(() => {
+      Swal.close();
+      clearInterval(timer);
+    }, 1500);
+    Swal.fire({
+      title: 'Edit Employee',
+      text: 'Edit employee is not allowed because now is under development',
+      icon: 'error',
+      iconColor: '#000',
+      color: '#000',
+      background: '#EFEF8D',
+      // confirmButtonColor: '#dc3545',
+      // confirmButtonText: 'OK',
+      showConfirmButton: false,
+      timer: 1500
+    }).then(res => {
+    });
   }
 
-  addEmployee(employee: IEmployee) {
-    this.employeeService.create(employee);
-  }
+  // addEmployee(employee: IEmployee) {
+  //   this.employeeService.create(employee);
+  // }
   gotoDetails(employee: IEmployee) {
     this.router.navigateByUrl(`/employee/${employee.id}`);
   }

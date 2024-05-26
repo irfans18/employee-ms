@@ -109,7 +109,7 @@
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-emp let-i="rowIndex">
-        <tr>
+        <tr (click)="gotoDetails(emp)" class="cursor-pointer">
             <!-- <td>{{ i + 1 + (dt1.first || 0) }}</td> -->
             <!-- <td>{{ emp.username }}</td> -->
             <td>{{ emp.firstName + ' ' + emp.lastName }}</td>
@@ -121,7 +121,7 @@
             <td>{{ emp.status }}</td>
             <td>{{ emp.group.groupName }}</td>
             <td class="flex space-x-4">
-                <button class="rounded bg-yellow-500 px-2 py-1 text-white" (click)="gotoDetails(emp)">
+                <button class="rounded bg-yellow-500 px-2 py-1 text-white" (click)="editEmployee(emp)">
                     <i class="pi pi-pencil"></i>
                 </button>
                 <button class="rounded bg-red-500 px-2 py-1 text-white" (click)="deleteEmployee(emp)">
