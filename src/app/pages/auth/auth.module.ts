@@ -6,6 +6,7 @@ import { FloatLabelModule } from 'primeng/floatlabel';
 import { InputTextModule } from 'primeng/inputtext';
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './login/login.component';
+import { AuthService } from '@services/auth.service';
 
 
 const components = [
@@ -24,6 +25,7 @@ const components = [
     FloatLabelModule,
     ReactiveFormsModule,
   ],
+  providers: [AuthService],
   exports: [
     ...components
   ]

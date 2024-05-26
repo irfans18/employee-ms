@@ -11,18 +11,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-        label: 'Home',
-        icon: 'pi pi-home'
-      },
-      {
-        label: 'Features',
-        icon: 'pi pi-star',
-        url: 'https://www.primefaces.org/primeng/',
-      },
-      
-      {
-        label: 'Contact',
-        icon: 'pi pi-envelope',
+        label: 'Logout',
+        icon: 'pi-sign-out',
+        routerLink: '/login'
       }
     ];
   }

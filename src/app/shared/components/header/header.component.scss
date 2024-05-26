@@ -3,4 +3,9 @@
 // } 
 :host ::ng-deep .p-menubar {
     @apply bg-slate-100;
+    height: 4rem;
+    p-menubarsub { // Apply styling to sub-menu
+        position: absolute;
+        right: 40px;
+    }
 }

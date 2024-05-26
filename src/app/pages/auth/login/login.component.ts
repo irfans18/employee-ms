@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from '@services/auth.service';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -16,18 +17,12 @@ export class LoginComponent {
   })
 
   constructor(
-    private readonly router: Router
+    private readonly authService: AuthService,
   ) { }
 
   onSubmit() {
     if (this.loginForm.valid) {
-      const { username, password } = this.loginForm.value;
-      if (username === 'admin' && password === '123123') {
-        Swal.fire('Good job!', 'You clicked the button!', 'success');
-        this.router.navigate(['/employee']);
-      } else {
-        Swal.fire('Oops!', "Invalid Credential", 'warning');
-      }
+      this.authService.login(this.loginForm.value);
     } 
   }
 }
