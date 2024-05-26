@@ -11,3 +11,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 username : admin
 password : 123123
 ```
+
+## Credits
+[API data dummy](https://github.com/shodiqbasiru/.Net-Employee-Web-Api) was generated from shodiqbasiru 
