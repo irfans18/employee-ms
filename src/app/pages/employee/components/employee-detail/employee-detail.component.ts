@@ -1,6 +1,6 @@
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 import { EmployeeService } from '@services/employee.service';
 import { IEmployee } from '@shared/model/employee';
 
@@ -21,13 +21,17 @@ export class EmployeeDetailComponent implements OnInit {
   }
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id');
+    console.log(this.id);
     this.emp = this.employeeService.getById(this.id as string) as IEmployee;
     this.route.snapshot.data
     // this.backQuery = this.router.getCurrentNavigation()?.previousNavigation?.queryParams;
-    console.log(this.route.snapshot.data);
+    // console.log(this.route.snapshot.data);
+    // console.log(this.location.back.arguments);
+
   }
 
   goBack() {
     this.location.back();
+    // this.router.navigate(['/employee']);
   }
 }

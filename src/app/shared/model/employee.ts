@@ -1,7 +1,8 @@
 export interface IEmployee {
     id?: string
     username: string
-    employeeName: string
+    firstName: string
+    lastName: string
     email: string
     address: string
     phoneNumber: string
@@ -9,6 +10,5 @@ export interface IEmployee {
     basicSalary: number
     status: string
     group: any
-    createdAt?: string
     description?: string
 }

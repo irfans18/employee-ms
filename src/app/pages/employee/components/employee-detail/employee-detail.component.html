@@ -3,7 +3,7 @@
     Back</p>
 <div class="flex w-screen justify-center ">
     <div class="card flex justify-content-center rounded-lg py-4 pt-10">
-        <p-card header="Employee Detail" subheader="{{emp.employeeName}}" [style]="{ width: '360px' }">
+        <p-card header="Employee Detail" subheader="{{emp.firstName + ' ' + emp.lastName}}" [style]="{ width: '360px' }">
             <p>Username : {{emp.username}} </p>
             <p>Email : {{emp.email}} </p>
             <p>Nomor HP : {{emp.phoneNumber}} </p>

@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { EmployeeService } from '@services/employee.service';
+import { HttpClientModule } from '@angular/common/http';
+import { GroupService } from '@services/group.service';
 
 @NgModule({
   declarations: [
@@ -16,9 +19,10 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    SweetAlert2Module.forRoot()
+    SweetAlert2Module.forRoot(),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [EmployeeService, GroupService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

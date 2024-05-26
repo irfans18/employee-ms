@@ -13,6 +13,12 @@ import Swal from 'sweetalert2';
   styleUrl: './employee-form.component.scss'
 })
 export class EmployeeFormComponent implements OnInit {
+  groups: IGroup[];
+  maxDate: Date | undefined;
+  @Input() description = new Date().toDateString();
+  @Input() selectedGroup: string = '';
+
+
   createForm: FormGroup = new FormGroup({
     username: new FormControl('', [Validators.required, Validators.minLength(4)]),
     firstName: new FormControl('', [Validators.required, Validators.minLength(1)]),
@@ -22,13 +28,10 @@ export class EmployeeFormComponent implements OnInit {
     basicSalary: new FormControl('', [Validators.required, Validators.minLength(1)]),
     status: new FormControl('', [Validators.required, Validators.minLength(1)]),
     group: new FormControl('', [Validators.required, Validators.minLength(1)]),
-    description: new FormControl('', [Validators.required, Validators.minLength(1)]),
+    description: new FormControl({ value: this.description, disabled: true }, [Validators.required])
   })
 
-  groups: IGroup[];
-  maxDate: Date | undefined;
-  @Input() description = new Date().toDateString();
-  @Input() selectedGroup: string = '';
+  
 
   constructor(
     private readonly router: Router,
@@ -44,8 +47,7 @@ export class EmployeeFormComponent implements OnInit {
   onSubmit() {
     console.log(this.createForm.value);
     if (this.createForm.valid) {
-      const emp = { ...this.createForm.value };
-      emp.id = new Date().getTime().toString();
+      const emp = { ...this.createForm.value, group: this.createForm.value.group.groupName };
       console.log(emp);
       this.employeeService.create(emp);
       Swal.fire('Good job!', 'Successfully added record!', 'success');

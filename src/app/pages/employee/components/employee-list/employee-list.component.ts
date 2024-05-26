@@ -1,19 +1,18 @@
-import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
-import { EmployeeService } from '@services/employee.service';
-import { IEmployee } from '../../../../shared/model/employee';
-import { Table } from 'primeng/table';
+import { AfterViewInit, Component, Input, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { EmployeeService } from '@services/employee.service';
+import { Table } from 'primeng/table';
+import { IEmployee } from '../../../../shared/model/employee';
 
 @Component({
   selector: 'app-employee-list',
   templateUrl: './employee-list.component.html',
   styleUrls: ['./employee-list.component.scss'],
-  providers: [EmployeeService],
 })
-export class EmployeeListComponent implements OnInit,AfterViewInit, OnChanges {
+export class EmployeeListComponent implements OnInit, AfterViewInit {
   loading: boolean = true;
   @Input() searchValue: string = '';
-  @ViewChild('dt1') table: any; 
+  @ViewChild('dt1') table: any;
 
   employees: IEmployee[] = [];
   first = 0;
@@ -26,16 +25,19 @@ export class EmployeeListComponent implements OnInit,AfterViewInit, OnChanges {
     private readonly router: Router,
     private readonly route: ActivatedRoute,
 
-  ) { }
-  ngOnChanges(changes: SimpleChanges): void {
-    this.employees = this.employeeService.getAll();
+  ) {
+
   }
+
+
   ngAfterViewInit(): void {
     console.log('Table:', this.table);
   }
 
   ngOnInit(): void {
-    this.employees = this.employeeService.getAll();
+    this.employeeService.employees$.subscribe(employees => {
+      this.employees = employees;
+    });
     this.loading = false;
     this.route.queryParams.subscribe(params => {
       this.query.search = params['search'] || '';
@@ -62,19 +64,21 @@ export class EmployeeListComponent implements OnInit,AfterViewInit, OnChanges {
     this.router.navigate(['/employee'], { queryParams: this.query });
   }
 
-
-
   clear(table: Table) {
     table.clear();
     this.searchValue = '';
     this.router.navigate(['/employee']);
   }
-  deleteEmployee(employee: IEmployee) {
-    this.employees = this.employees.filter((emp) => emp.id !== employee.id);
-    this.employeeService.deleteById(employee.id as string);
+  deleteEmployee(emp: IEmployee) {
+    this.employeeService.deleteById(emp.id as string);
   }
+
   editEmployee(employee: IEmployee) {
-    this.employees = this.employees.map((emp) => emp.id === employee.id ? employee : emp);
+    this.employeeService.edit(employee);
+  }
+
+  addEmployee(employee: IEmployee) {
+    this.employeeService.create(employee);
   }
   gotoDetails(employee: IEmployee) {
     this.router.navigateByUrl(`/employee/${employee.id}`);

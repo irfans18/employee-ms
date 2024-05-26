@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { EmployeeService } from '@services/employee.service';
 import { SharedModule } from '@shared/shared.module';
 import { ButtonModule } from 'primeng/button';
 import { CalendarModule } from 'primeng/calendar';
@@ -49,7 +49,8 @@ const components = [
     FloatLabelModule,
     ReactiveFormsModule,
     CalendarModule,
+    HttpClientModule,
   ],
-  providers: [EmployeeService],
+  providers: [],
 })
 export class EmployeeModule { }

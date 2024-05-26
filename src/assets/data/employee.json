@@ -1,1808 +1,1908 @@
 {
-    "statusCode": 200,
-    "status": "OK",
-    "message": "Employees found successfully",
-    "paging": null,
-    "data": [
-      {
-        "id": "abd76f86-0ae1-4537-8db6-13f97abe3e06",
-        "username": "wira65",
-        "employeeName": "Salsabila Kusmawati",
-        "email": "wira65_Prastuti@gmail.co.id",
-        "address": "Gg. Eldridge no 79, Jember, Gabon",
-        "phoneNumber": "(+62) 993 2287 5983",
-        "birthDate": "1997-04-29",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:17:18.1319512"
-      },
-      {
-        "id": "b6c5dc71-72d3-4cca-9ff7-270668a93c7a",
-        "username": "bancar_namaga",
-        "employeeName": "Hartana Haryanto",
-        "email": "bancar_namaga1@gmail.co.id",
-        "address": "Gg. Kali no 18, Ruteng, Saint Pierre and Miquelon",
-        "phoneNumber": "(+62) 872 3050 3063",
-        "birthDate": "2000-06-20",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:50:28.1458128"
-      },
-      {
-        "id": "8d2eef15-bb62-4608-a369-5e770f62b464",
-        "username": "icha.lestari",
-        "employeeName": "Jaka Haryanto",
-        "email": "icha.lestari_Saptono57@yahoo.co.id",
-        "address": "Jln. Edyth no 9, Sukoharjo, Iceland",
-        "phoneNumber": "(+62) 24 4483 1002",
-        "birthDate": "1983-07-27",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:10:06.7761675"
-      },
-      {
-        "id": "91a7a3a3-b30e-44e8-949d-725a1361f82f",
-        "username": "ajimin49",
-        "employeeName": "Diana Agustina",
-        "email": "ajimin49_Mandasari74@yahoo.com",
-        "address": "Ds. Sunny no 2, Bolaang Uki, Guatemala",
-        "phoneNumber": "(+62) 633 7189 6502",
-        "birthDate": "2004-06-17",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:07:25.3633035"
-      },
-      {
-        "id": "e6cd884e-fdf8-4d66-83e1-7c0333cad84f",
-        "username": "nyoman.yuliarti65",
-        "employeeName": "Kajen Napitupulu",
-        "email": "nyoman.yuliarti65.Palastri@yahoo.co.id",
-        "address": "Ki. Stiedemann no 6, Mbay, Costa Rica",
-        "phoneNumber": "0880 489 671",
-        "birthDate": "2001-04-15",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:46:19.6148996"
-      },
-      {
-        "id": "8a32f775-2cc2-4428-b6b2-b2b80e54f892",
-        "username": "darimin91",
-        "employeeName": "Anom Maryadi",
-        "email": "darimin91.Halimah@yahoo.com",
-        "address": "Ki. Kayla no 27, Kwandang, Tajikistan",
-        "phoneNumber": "(+62) 344 8382 0914",
-        "birthDate": "2001-01-15",
-        "basicSalary": 5000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:19:31.4519304"
-      },
-      {
-        "id": "04c225dd-17f1-4733-9b97-d9749ba04175",
-        "username": "ilsa_utami87",
-        "employeeName": "Eka Yuliarti",
-        "email": "ilsa_utami87_Pratama@yahoo.com",
-        "address": "Kpg. Osinski no 98, Ponorogo, Morocco",
-        "phoneNumber": "(+62) 717 0539 847",
-        "birthDate": "1979-11-24",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T06:10:56.2219214"
-      },
-      {
-        "id": "6c3b0e80-c0e6-4bb1-bcee-f3463d5c5c7b",
-        "username": "vino.kuswandari5",
-        "employeeName": "Gilda Mandasari",
-        "email": "vino.kuswandari5_Widodo33@yahoo.co.id",
-        "address": "Jln. Hammes no 18, Bolaang Uki, Swaziland",
-        "phoneNumber": "0872 8160 4382",
-        "birthDate": "1988-01-17",
-        "basicSalary": 7000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
-          "groupName": "Clothing & Health",
-          "groupDescription": "Eum praesentium blanditiis.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T13:45:11.8277895"
-      },
-      {
-        "id": "9f5c1be3-b557-4a96-a17f-0ab63ff25a6b",
-        "username": "darmana68",
-        "employeeName": "Karen Riyanti",
-        "email": "darmana68.Uyainah@gmail.com",
-        "address": "Psr. Ricky no 46, Sumbawa Besar, Nicaragua",
-        "phoneNumber": "0866 337 161",
-        "birthDate": "1983-10-14",
-        "basicSalary": 4000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:13:41.882617"
-      },
-      {
-        "id": "14aef81a-69bf-42c9-a8f7-2b218d2e4e26",
-        "username": "johan72",
-        "employeeName": "Hilda Maryati",
-        "email": "johan7278@yahoo.co.id",
-        "address": "Ki. Edyth no 23, Mamuju, Rwanda",
-        "phoneNumber": "(+62) 309 3845 138",
-        "birthDate": "1990-07-29",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T22:15:00.1644152"
-      },
-      {
-        "id": "49218eb7-dea5-4637-a217-38c915ccd8b0",
-        "username": "putri.anggraini",
-        "employeeName": "Aurora Puspita",
-        "email": "putri.anggraini17@gmail.com",
-        "address": "Ds. Davon no 1, Singaparna, Bolivia",
-        "phoneNumber": "0635 3878 2625",
-        "birthDate": "1983-02-09",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:44:33.4054487"
-      },
-      {
-        "id": "76f3791c-3a49-40d9-a8dd-49ec8dfd9921",
-        "username": "septi.zulkarnain",
-        "employeeName": "Bagus Damanik",
-        "email": "septi.zulkarnain.Nurdiyanti@yahoo.com",
-        "address": "Jr. Barney no 00, Ratahan, Mayotte",
-        "phoneNumber": "(+62) 722 4182 797",
-        "birthDate": "2006-02-25",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:42:10.9018341"
-      },
-      {
-        "id": "643859fd-acb8-415e-83c1-4ff641655134",
-        "username": "devi38",
-        "employeeName": "Padma Uyainah",
-        "email": "devi3810@gmail.co.id",
-        "address": "Kpg. Grimes no 55, Sengkang, Gibraltar",
-        "phoneNumber": "027 5795 8007",
-        "birthDate": "1994-09-21",
-        "basicSalary": 3000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T17:14:54.797186"
-      },
-      {
-        "id": "18a59ae1-5464-47ff-bf6e-507ba3981bfd",
-        "username": "bajragin28",
-        "employeeName": "Queen Rahmawati",
-        "email": "bajragin2826@yahoo.co.id",
-        "address": "Psr. Lebsack no 7, Tilamuta, Christmas Island",
-        "phoneNumber": "0852 8618 617",
-        "birthDate": "1992-02-02",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T02:24:40.1045993"
-      },
-      {
-        "id": "47954fca-2354-4be8-8e81-6039cf1e35da",
-        "username": "agnes34",
-        "employeeName": "Bakijan Saputra",
-        "email": "agnes34_Dabukke90@yahoo.co.id",
-        "address": "Dk. Pacocha no 22, Raba, Malta",
-        "phoneNumber": "(+62) 313 7998 4753",
-        "birthDate": "1998-05-03",
-        "basicSalary": 3000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T19:09:53.9025273"
-      },
-      {
-        "id": "fd3c0f05-523a-4520-8d72-611f10918fc0",
-        "username": "pangestu.rahmawati42",
-        "employeeName": "Irwan Hardiansyah",
-        "email": "pangestu.rahmawati42.Prastuti81@gmail.co.id",
-        "address": "Dk. Botsford no 4, Banyumas, Seychelles",
-        "phoneNumber": "(+62) 937 3110 0988",
-        "birthDate": "2001-09-19",
-        "basicSalary": 5000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:28:01.3087968"
-      },
-      {
-        "id": "3b36d0ed-0496-45b7-a695-75fdd5353420",
-        "username": "jaswadi72",
-        "employeeName": "Rahman Saptono",
-        "email": "jaswadi723@yahoo.co.id",
-        "address": "Dk. O'Kon no 58, Blitar, Congo",
-        "phoneNumber": "0373 3387 692",
-        "birthDate": "1982-01-17",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:48:32.5688226"
-      },
-      {
-        "id": "ccaa4f6e-9047-4d7e-8cd9-80df1dcc970f",
-        "username": "daliman57",
-        "employeeName": "Aswani Mangunsong",
-        "email": "daliman5717@gmail.co.id",
-        "address": "Kpg. Dicki no 9, Taliwang, Lao People's Democratic Republic",
-        "phoneNumber": "(+62) 891 270 508",
-        "birthDate": "1988-04-28",
-        "basicSalary": 4000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T07:02:49.1830937"
-      },
-      {
-        "id": "fee22500-5954-4471-bc59-a1f300e3b298",
-        "username": "hana_rajasa",
-        "employeeName": "Uchita Usada",
-        "email": "hana_rajasa70@yahoo.co.id",
-        "address": "Ds. Rosalee no 32, Cirebon, Jersey",
-        "phoneNumber": "0748 3002 492",
-        "birthDate": "1986-07-27",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T00:54:26.7698828"
-      },
-      {
-        "id": "27071e30-d5a6-46d4-b195-a8841e603e3d",
-        "username": "elon28",
-        "employeeName": "Surya Suwarno",
-        "email": "elon28.Putra99@yahoo.co.id",
-        "address": "Jr. Kassulke no 24, Jombang, Honduras",
-        "phoneNumber": "029 6090 381",
-        "birthDate": "2000-08-23",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T19:44:45.9625389"
-      },
-      {
-        "id": "1cb00a15-bc21-4f7c-99f4-c835eb30ea55",
-        "username": "ajiman_prakasa37",
-        "employeeName": "Kariman Prasetya",
-        "email": "ajiman_prakasa3764@yahoo.co.id",
-        "address": "Jr. Melany no 5, Baa, Slovakia (Slovak Republic)",
-        "phoneNumber": "0988 3750 9781",
-        "birthDate": "1987-05-14",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
-          "groupName": "Health, Games & Shoes",
-          "groupDescription": "Dolorum non voluptatem.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T12:31:05.4238676"
-      },
-      {
-        "id": "244b258b-125b-4f61-a968-12147482b80b",
-        "username": "laila.prasasta",
-        "employeeName": "Surya Haryanto",
-        "email": "laila.prasasta_Nasyiah@yahoo.com",
-        "address": "Psr. Pfeffer no 7, Suwawa, Libyan Arab Jamahiriya",
-        "phoneNumber": "(+62) 624 9556 3171",
-        "birthDate": "1996-03-15",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T09:13:10.5785193"
-      },
-      {
-        "id": "aa6cc686-280e-4257-a9c5-13cae3273a1b",
-        "username": "puput.budiman44",
-        "employeeName": "Jaya Hakim",
-        "email": "puput.budiman4495@yahoo.co.id",
-        "address": "Kpg. Murazik no 13, Wonosobo, United States of America",
-        "phoneNumber": "(+62) 805 0552 359",
-        "birthDate": "1983-08-31",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:40:00.2717684"
-      },
-      {
-        "id": "e610e181-c1e6-435d-aecd-366009cf2591",
-        "username": "qori.haryanti",
-        "employeeName": "Dinda Rahimah",
-        "email": "qori.haryanti_Rahimah62@yahoo.co.id",
-        "address": "Dk. Tommie no 7, Depok, Virgin Islands, U.S.",
-        "phoneNumber": "(+62) 25 4856 657",
-        "birthDate": "1985-03-11",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:41:39.7028271"
-      },
-      {
-        "id": "93b35027-56a5-4b3c-8b82-3d179451a08f",
-        "username": "jane_namaga",
-        "employeeName": "Tomi Hardiansyah",
-        "email": "jane_namaga_Yuniar77@yahoo.com",
-        "address": "Jln. Harmon no 9, Ngamprah, Faroe Islands",
-        "phoneNumber": "(+62) 805 028 999",
-        "birthDate": "1983-10-10",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T14:28:15.8289023"
-      },
-      {
-        "id": "b0253841-3165-473f-9e01-4c075f199212",
-        "username": "gabriella.iswahyudi63",
-        "employeeName": "Dalima Padmasari",
-        "email": "gabriella.iswahyudi63.Pratama76@yahoo.co.id",
-        "address": "Jln. Deangelo no 4, Cirebon, French Polynesia",
-        "phoneNumber": "(+62) 409 2003 2097",
-        "birthDate": "2005-10-13",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:11:27.6674693"
-      },
-      {
-        "id": "5694e4ed-39db-47a8-b389-69a5e49fb980",
-        "username": "indah.mardhiyah",
-        "employeeName": "Ika Yolanda",
-        "email": "indah.mardhiyah.Sinaga@gmail.com",
-        "address": "Jr. Lemke no 8, Bau-Bau, Maldives",
-        "phoneNumber": "0823 011 634",
-        "birthDate": "1981-12-21",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T05:38:07.2145598"
-      },
-      {
-        "id": "d909b313-c5ce-457e-a14f-6b63137263e6",
-        "username": "mustofa.wijayanti90",
-        "employeeName": "Adikara Ramadan",
-        "email": "mustofa.wijayanti9074@yahoo.co.id",
-        "address": "Gg. Howell no 9, Singaraja, Sweden",
-        "phoneNumber": "(+62) 649 2489 6724",
-        "birthDate": "1991-07-01",
-        "basicSalary": 4000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T15:21:16.3639428"
-      },
-      {
-        "id": "a194e101-cb67-4d2a-abb1-94cd7c5138bf",
-        "username": "setya_hasanah",
-        "employeeName": "Daliono Mahendra",
-        "email": "setya_hasanah.Fujiati@gmail.co.id",
-        "address": "Jln. Mosciski no 34, Parigi, Costa Rica",
-        "phoneNumber": "(+62) 624 7379 9871",
-        "birthDate": "1980-05-01",
-        "basicSalary": 3000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:03:25.4254445"
-      },
-      {
-        "id": "2a474b48-09fa-4d23-ac5d-98b7360aed5e",
-        "username": "jabal12",
-        "employeeName": "Pardi Haryanto",
-        "email": "jabal12.Susanti@yahoo.co.id",
-        "address": "Kpg. Windler no 66, Bondowoso, Bahamas",
-        "phoneNumber": "0355 1322 722",
-        "birthDate": "1994-06-07",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T02:41:29.9248123"
-      },
-      {
-        "id": "aa5139b8-49bc-41d7-a151-a022a5c73065",
-        "username": "kenzie43",
-        "employeeName": "Zulfa Yolanda",
-        "email": "kenzie4343@gmail.co.id",
-        "address": "Ds. Cary no 02, Banyuwangi, Belarus",
-        "phoneNumber": "029 7623 333",
-        "birthDate": "2000-11-23",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:53:57.9254492"
-      },
-      {
-        "id": "c491b461-e322-4ff6-8723-a24401df9c2f",
-        "username": "michelle56",
-        "employeeName": "Kania Hartati",
-        "email": "michelle5657@yahoo.com",
-        "address": "Psr. Ethan no 6, Majalengka, Indonesia",
-        "phoneNumber": "0665 7100 3472",
-        "birthDate": "1993-01-28",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T02:28:17.9742537"
-      },
-      {
-        "id": "e1a25b01-a973-442e-a63c-e09a684b207c",
-        "username": "cakrabuana_wahyudin",
-        "employeeName": "Malik Kuswoyo",
-        "email": "cakrabuana_wahyudin80@yahoo.com",
-        "address": "Dk. Hailee no 0, Sumedang, Turkmenistan",
-        "phoneNumber": "(+62) 577 3661 6034",
-        "birthDate": "1999-06-21",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T14:43:39.7332651"
-      },
-      {
-        "id": "40d552ce-55c7-4b56-bc3b-e48d9fbfa4f7",
-        "username": "adika42",
-        "employeeName": "Dalima Halimah",
-        "email": "adika42.Sihombing21@gmail.com",
-        "address": "Ds. Cooper no 2, Gorontalo, Seychelles",
-        "phoneNumber": "(+62) 21 7179 5808",
-        "birthDate": "1979-12-30",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
-          "groupName": "Industrial",
-          "groupDescription": "Hic totam non.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:29:51.3739569"
-      },
-      {
-        "id": "c0349406-94e7-4194-be3a-167274918e0b",
-        "username": "anastasia_prastuti3",
-        "employeeName": "Usyi Yuliarti",
-        "email": "anastasia_prastuti312@gmail.com",
-        "address": "Ki. Kamille no 4, Singaraja, Bulgaria",
-        "phoneNumber": "(+62) 363 9428 8979",
-        "birthDate": "1998-04-22",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:51:51.4855084"
-      },
-      {
-        "id": "fb153798-4a0b-40cd-ba1c-1b71ef316a26",
-        "username": "vino_mangunsong",
-        "employeeName": "Carla Palastri",
-        "email": "vino_mangunsong_Utami@yahoo.com",
-        "address": "Kpg. Laney no 01, Wonosobo, Palau",
-        "phoneNumber": "(+62) 913 5956 832",
-        "birthDate": "2002-12-15",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T05:25:01.0268114"
-      },
-      {
-        "id": "47b17a1e-9f5a-4f16-a7a4-29e4ba70af8b",
-        "username": "galar77",
-        "employeeName": "Gaman Tarihoran",
-        "email": "galar7747@gmail.co.id",
-        "address": "Jln. Weber no 8, Bungku, Kuwait",
-        "phoneNumber": "(+62) 678 5234 9196",
-        "birthDate": "2006-01-31",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T23:00:27.3820705"
-      },
-      {
-        "id": "019f6e63-0d50-4a6b-9bbc-2f2c02575f4d",
-        "username": "eluh_waskita",
-        "employeeName": "Nilam Kusmawati",
-        "email": "eluh_waskita.Hidayanto@gmail.co.id",
-        "address": "Dk. Hyatt no 19, Bangil, Cote d'Ivoire",
-        "phoneNumber": "(+62) 486 4054 6053",
-        "birthDate": "1991-04-05",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:14:26.5049837"
-      },
-      {
-        "id": "8ed287e8-8c62-48c3-a5d5-2f89c3311936",
-        "username": "suci6",
-        "employeeName": "Purwadi Jailani",
-        "email": "suci647@yahoo.co.id",
-        "address": "Gg. Gusikowski no 5, Selong, Micronesia",
-        "phoneNumber": "(+62) 673 1291 2665",
-        "birthDate": "2000-09-05",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T04:15:32.6710716"
-      },
-      {
-        "id": "33d1a569-4067-4e57-a714-72a554d63a5d",
-        "username": "olivia_prakasa",
-        "employeeName": "Raharja Pratama",
-        "email": "olivia_prakasa_Laksita@yahoo.com",
-        "address": "Gg. Daniella no 40, Jakarta, Puerto Rico",
-        "phoneNumber": "(+62) 206 2772 236",
-        "birthDate": "1982-03-26",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:48:20.2599452"
-      },
-      {
-        "id": "208221e8-2740-4b7f-ad49-7ea854ae8e78",
-        "username": "gamani.pranowo",
-        "employeeName": "Jindra Siregar",
-        "email": "gamani.pranowo_Anggraini@gmail.com",
-        "address": "Kpg. Grant no 0, Anyer, Lebanon",
-        "phoneNumber": "0838 311 009",
-        "birthDate": "1996-01-26",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T16:10:03.8338716"
-      },
-      {
-        "id": "e0f98078-efab-4af7-9765-8efbb863ad31",
-        "username": "kawaca.nuraini",
-        "employeeName": "Balidin Utama",
-        "email": "kawaca.nuraini.Damanik64@gmail.com",
-        "address": "Psr. Buddy no 5, Karangasem, Algeria",
-        "phoneNumber": "0973 4220 9943",
-        "birthDate": "2006-01-20",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T07:24:49.4988383"
-      },
-      {
-        "id": "00187e56-3026-499a-bbe9-93612ad2d43d",
-        "username": "uchita18",
-        "employeeName": "Rini Hassanah",
-        "email": "uchita18_Hasanah@yahoo.co.id",
-        "address": "Ki. Art no 86, Rumbia, Slovenia",
-        "phoneNumber": "(+62) 254 8457 312",
-        "birthDate": "2000-06-29",
-        "basicSalary": 4000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:20:45.9014196"
-      },
-      {
-        "id": "c056fb90-429e-423f-9738-ac08bbfa3fba",
-        "username": "kasiyah_pertiwi28",
-        "employeeName": "Virman Thamrin",
-        "email": "kasiyah_pertiwi28.Suryatmi0@gmail.com",
-        "address": "Ki. Arnold no 5, Boroko, New Zealand",
-        "phoneNumber": "0805 4439 1293",
-        "birthDate": "1988-05-24",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T11:47:25.5642171"
-      },
-      {
-        "id": "ba73b669-6948-41f0-abe5-af5674c6497a",
-        "username": "usyi_lestari",
-        "employeeName": "Latif Saputra",
-        "email": "usyi_lestari_Yolanda76@gmail.com",
-        "address": "Kpg. Kimberly no 47, Palopo, Spain",
-        "phoneNumber": "022 8892 754",
-        "birthDate": "1977-07-24",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:43:54.3158687"
-      },
-      {
-        "id": "9b052b30-3350-48db-b316-c0ff693c99b7",
-        "username": "sarah_yuliarti",
-        "employeeName": "Darmaji Sirait",
-        "email": "sarah_yuliarti32@gmail.co.id",
-        "address": "Ds. Mariana no 4, Baa, Swaziland",
-        "phoneNumber": "0410 3859 524",
-        "birthDate": "1988-01-12",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:13:44.384991"
-      },
-      {
-        "id": "643238ed-6750-4850-a713-d64dfc94a227",
-        "username": "darsirah71",
-        "employeeName": "Citra Permata",
-        "email": "darsirah71.Puspasari35@gmail.com",
-        "address": "Ds. Micaela no 0, Boyolali, Germany",
-        "phoneNumber": "0458 4822 2363",
-        "birthDate": "1988-03-16",
-        "basicSalary": 3000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:09:00.9768471"
-      },
-      {
-        "id": "1a7df2e0-9e4e-4ad3-b077-e02e94dce90d",
-        "username": "daryani_marbun69",
-        "employeeName": "Wasis Wahyudin",
-        "email": "daryani_marbun69_Kusmawati@yahoo.com",
-        "address": "Jr. Mraz no 37, Wonogiri, Sri Lanka",
-        "phoneNumber": "(+62) 512 6012 7560",
-        "birthDate": "2003-03-01",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T21:37:11.532804"
-      },
-      {
-        "id": "4162a5b4-e7f1-4e78-b349-ec11ffcd7e94",
-        "username": "kamila75",
-        "employeeName": "Bahuwirya Pranowo",
-        "email": "kamila753@yahoo.com",
-        "address": "Dk. Gleichner no 07, Sumbawa Besar, Canada",
-        "phoneNumber": "(+62) 543 4423 1555",
-        "birthDate": "1982-08-02",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
-          "groupName": "Shoes, Garden & Tools",
-          "groupDescription": "Ut architecto placeat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:00:40.0621358"
-      },
-      {
-        "id": "9e498434-aa13-4106-8d3c-955b63a2f050",
-        "username": "eluh_namaga",
-        "employeeName": "Johan Mangunsong",
-        "email": "eluh_namaga_Uyainah@gmail.co.id",
-        "address": "Kpg. Sauer no 5, Wonogiri, Belarus",
-        "phoneNumber": "(+62) 20 0437 5298",
-        "birthDate": "1985-04-09",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
-          "groupName": "Health",
-          "groupDescription": "Quis commodi fugiat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:54:41.5715252"
-      },
-      {
-        "id": "fe623f52-b1fd-4809-9465-af8120179f22",
-        "username": "vicky_wijaya",
-        "employeeName": "Harsaya Saptono",
-        "email": "vicky_wijaya.Purwanti29@gmail.co.id",
-        "address": "Ki. Deanna no 06, Palu, Finland",
-        "phoneNumber": "0252 4398 882",
-        "birthDate": "2003-01-20",
-        "basicSalary": 5000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
-          "groupName": "Health",
-          "groupDescription": "Quis commodi fugiat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T00:53:50.370285"
-      },
-      {
-        "id": "438b8f66-d164-4d5a-8877-beb7185906a7",
-        "username": "gamblang_megantara",
-        "employeeName": "Gamblang Prasasta",
-        "email": "gamblang_megantara_Sudiati10@yahoo.com",
-        "address": "Kpg. Shaylee no 93, Cianjur, Republic of Korea",
-        "phoneNumber": "(+62) 921 2265 9051",
-        "birthDate": "1990-05-24",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
-          "groupName": "Health",
-          "groupDescription": "Quis commodi fugiat.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T00:05:08.1074386"
-      },
-      {
-        "id": "a7e43660-3286-4279-a326-0aa1ce8f9bb9",
-        "username": "damar_adriansyah",
-        "employeeName": "Jail Firmansyah",
-        "email": "damar_adriansyah.Nainggolan91@gmail.com",
-        "address": "Psr. Cathryn no 1, Situbondo, Trinidad and Tobago",
-        "phoneNumber": "(+62) 741 6435 212",
-        "birthDate": "1982-12-02",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T11:06:37.4756605"
-      },
-      {
-        "id": "b264ee5e-9c09-49fc-a4cb-0f5b097114de",
-        "username": "asirwanda_mahendra",
-        "employeeName": "Dina Rahimah",
-        "email": "asirwanda_mahendra.Mandasari@gmail.co.id",
-        "address": "Ds. Paucek no 2, Banjar (Jawa Barat), American Samoa",
-        "phoneNumber": "(+62) 567 3459 2970",
-        "birthDate": "1986-07-19",
-        "basicSalary": 7000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:04:22.6603971"
-      },
-      {
-        "id": "1392467c-79bb-4c5c-82b8-6fd058ce0766",
-        "username": "pangeran.adriansyah25",
-        "employeeName": "Ganjaran Haryanto",
-        "email": "pangeran.adriansyah25.Lestari96@yahoo.com",
-        "address": "Jr. Marion no 3, Tabanan, Togo",
-        "phoneNumber": "(+62) 356 2606 9254",
-        "birthDate": "1997-10-04",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T09:26:32.7829433"
-      },
-      {
-        "id": "7994dd20-42db-4ca3-90cc-7b11dd6ce8f6",
-        "username": "pranawa_pudjiastuti99",
-        "employeeName": "Mahmud Hutagalung",
-        "email": "pranawa_pudjiastuti99_Nasyiah@gmail.com",
-        "address": "Ds. Greenfelder no 95, Selong, Oman",
-        "phoneNumber": "0764 1239 0118",
-        "birthDate": "2001-04-06",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T14:19:34.0871986"
-      },
-      {
-        "id": "2588aceb-6ae5-4665-9183-7d1745c92e01",
-        "username": "manah_zulkarnain",
-        "employeeName": "Drajat Hardiansyah",
-        "email": "manah_zulkarnain51@gmail.co.id",
-        "address": "Jr. Huel no 6, Larantuka, Mongolia",
-        "phoneNumber": "(+62) 25 3209 5898",
-        "birthDate": "1986-11-28",
-        "basicSalary": 3000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T05:13:26.1167883"
-      },
-      {
-        "id": "8ed0aa31-7a24-4fee-84cf-8a1911767fa9",
-        "username": "jarwadi74",
-        "employeeName": "Talia Wulandari",
-        "email": "jarwadi74_Natsir@gmail.com",
-        "address": "Gg. Kuhlman no 6, Singaraja, New Caledonia",
-        "phoneNumber": "(+62) 844 0008 2239",
-        "birthDate": "1980-08-16",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T07:53:28.4837417"
-      },
-      {
-        "id": "5b7f3745-bab8-427c-aeda-99293e03ff8c",
-        "username": "eka89",
-        "employeeName": "Wardaya Rajata",
-        "email": "eka8992@yahoo.co.id",
-        "address": "Jr. Bogisich no 4, Kebumen, Finland",
-        "phoneNumber": "0948 0227 6412",
-        "birthDate": "1976-08-29",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T06:05:44.7758311"
-      },
-      {
-        "id": "72e90bf0-88d4-4b1b-8e6a-9bbd94cc2fe3",
-        "username": "salimah.nugroho76",
-        "employeeName": "Yusuf Marpaung",
-        "email": "salimah.nugroho76_Dongoran76@yahoo.co.id",
-        "address": "Ki. Janis no 57, Atambua, Nepal",
-        "phoneNumber": "028 2467 8758",
-        "birthDate": "1996-02-23",
-        "basicSalary": 4000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:50:51.811338"
-      },
-      {
-        "id": "ce491714-e71f-40da-bfff-a113036b7172",
-        "username": "erik.rahmawati55",
-        "employeeName": "Jumadi Permadi",
-        "email": "erik.rahmawati555@gmail.com",
-        "address": "Dk. Armstrong no 7, Madiun, Cambodia",
-        "phoneNumber": "(+62) 761 3250 093",
-        "birthDate": "1991-09-08",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T04:53:56.9343187"
-      },
-      {
-        "id": "5358eb2d-bd2f-4a84-bc9b-c2ac1cd82810",
-        "username": "ajiman_prakasa91",
-        "employeeName": "Belinda Nurdiyanti",
-        "email": "ajiman_prakasa91_Samosir@gmail.com",
-        "address": "Ds. Fletcher no 90, Cilacap, Tokelau",
-        "phoneNumber": "(+62) 586 2951 914",
-        "birthDate": "2001-09-02",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:07:12.0979215"
-      },
-      {
-        "id": "c740a1ed-cbcf-4a1c-8b68-c40a1cb5b94f",
-        "username": "jaiman.adriansyah",
-        "employeeName": "Dinda Wulandari",
-        "email": "jaiman.adriansyah_Rajata23@yahoo.com",
-        "address": "Ki. Sofia no 6, Jepara, Nauru",
-        "phoneNumber": "0739 9077 0272",
-        "birthDate": "2003-01-31",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T11:40:25.8627775"
-      },
-      {
-        "id": "40cbdb93-fd18-4d47-be7f-ce21cb0d520d",
-        "username": "fitriani43",
-        "employeeName": "Kamila Hassanah",
-        "email": "fitriani43_Pradana0@yahoo.co.id",
-        "address": "Dk. Mallory no 8, Indramayu, Chad",
-        "phoneNumber": "(+62) 857 9169 7204",
-        "birthDate": "1976-12-20",
-        "basicSalary": 5000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T00:57:25.6580884"
-      },
-      {
-        "id": "a291e24a-edaa-4bbd-8bbd-cf47d4d2f559",
-        "username": "diah56",
-        "employeeName": "Gadang Hutagalung",
-        "email": "diah56_Puspita26@yahoo.co.id",
-        "address": "Ki. Raynor no 0, Kebumen, Guyana",
-        "phoneNumber": "021 5403 7440",
-        "birthDate": "1980-11-11",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:38:47.1621249"
-      },
-      {
-        "id": "e26c2ba4-3ccd-47e9-a7b7-e7c2a28551e9",
-        "username": "nurul_nasyiah2",
-        "employeeName": "Diana Mardhiyah",
-        "email": "nurul_nasyiah2_Sihombing@gmail.com",
-        "address": "Ki. Cole no 69, Banjarnegara, Lebanon",
-        "phoneNumber": "(+62) 808 0879 1041",
-        "birthDate": "1986-02-26",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
-          "groupName": "Industrial",
-          "groupDescription": "Recusandae doloremque quos.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T16:26:00.7830958"
-      },
-      {
-        "id": "1d986dd8-0516-4fbe-ace7-263b09e6a54c",
-        "username": "jumadi_prayoga26",
-        "employeeName": "Asmadi Maulana",
-        "email": "jumadi_prayoga26_Mandasari@yahoo.co.id",
-        "address": "Dk. VonRueden no 04, Bangil, Ireland",
-        "phoneNumber": "(+62) 479 7158 2577",
-        "birthDate": "1992-12-25",
-        "basicSalary": 3000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T17:25:16.1405459"
-      },
-      {
-        "id": "348d1052-9c9e-4fa7-8149-54aa492b31c9",
-        "username": "muni93",
-        "employeeName": "Muhammad Ardianto",
-        "email": "muni9372@yahoo.com",
-        "address": "Ds. Bode no 06, Indramayu, Malaysia",
-        "phoneNumber": "(+62) 378 3692 8174",
-        "birthDate": "1984-03-04",
-        "basicSalary": 3000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:53:39.048118"
-      },
-      {
-        "id": "7ee70c38-5d71-4b69-9ffd-6b1b3017aa71",
-        "username": "laila.safitri7",
-        "employeeName": "Luwes Hutapea",
-        "email": "laila.safitri7_Damanik6@yahoo.com",
-        "address": "Jr. Pfannerstill no 7, Bandung, Kazakhstan",
-        "phoneNumber": "0296 8273 539",
-        "birthDate": "2004-12-09",
-        "basicSalary": 7000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:23:25.3253156"
-      },
-      {
-        "id": "d52ad0a0-68cf-4fd4-bdee-6fed6939da76",
-        "username": "gada_sudiati6",
-        "employeeName": "Lukman Uwais",
-        "email": "gada_sudiati6_Nuraini@gmail.com",
-        "address": "Psr. Bogisich no 09, Dompu, Lao People's Democratic Republic",
-        "phoneNumber": "(+62) 876 7003 3112",
-        "birthDate": "2005-09-06",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T00:11:03.4164541"
-      },
-      {
-        "id": "5f2986a9-468d-4c89-bbc0-90e6dca6ed57",
-        "username": "hasna_farida31",
-        "employeeName": "Kasusra Manullang",
-        "email": "hasna_farida31_Saputra74@yahoo.co.id",
-        "address": "Jr. Harris no 89, Sleman, Martinique",
-        "phoneNumber": "0616 7414 2830",
-        "birthDate": "1996-12-26",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T19:00:09.9126034"
-      },
-      {
-        "id": "3736aba1-3066-497d-8d4c-9524b932d59c",
-        "username": "oman78",
-        "employeeName": "Oskar Firmansyah",
-        "email": "oman7816@yahoo.com",
-        "address": "Kpg. Ardith no 1, Gresik, Western Sahara",
-        "phoneNumber": "0845 852 576",
-        "birthDate": "1997-10-18",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T23:39:30.0983618"
-      },
-      {
-        "id": "05fd5ff5-25c5-4eb6-a9bb-97b39caaca19",
-        "username": "paulin_handayani",
-        "employeeName": "Jamil Firgantoro",
-        "email": "paulin_handayani.Saefullah59@gmail.com",
-        "address": "Psr. Sauer no 28, Trenggalek, Guam",
-        "phoneNumber": "0936 4768 462",
-        "birthDate": "1987-06-25",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T21:54:24.9982421"
-      },
-      {
-        "id": "233fcbaf-efd4-43ca-88b4-9c53f473c318",
-        "username": "wirda10",
-        "employeeName": "Olga Sitorus",
-        "email": "wirda1093@yahoo.com",
-        "address": "Ds. Chandler no 45, Singaraja, Tonga",
-        "phoneNumber": "0349 1471 568",
-        "birthDate": "1999-12-01",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T16:24:36.0954727"
-      },
-      {
-        "id": "c407e7cc-fd67-45f5-bcc5-ccf533d51c5d",
-        "username": "citra.hasanah47",
-        "employeeName": "Tedi Sihombing",
-        "email": "citra.hasanah4739@yahoo.co.id",
-        "address": "Jr. Collins no 2, Buranga, Czech Republic",
-        "phoneNumber": "(+62) 734 0397 3881",
-        "birthDate": "1995-04-07",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
-          "groupName": "Baby, Computers & Kids",
-          "groupDescription": "Omnis voluptatem suscipit.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T21:50:27.9791521"
-      },
-      {
-        "id": "da4fbc87-1ed3-478e-b747-04b5840aed27",
-        "username": "aisyah_dabukke",
-        "employeeName": "Hamima Rahayu",
-        "email": "aisyah_dabukke.Pratama89@gmail.co.id",
-        "address": "Ki. Nathen no 9, Sidoarjo, Myanmar",
-        "phoneNumber": "0605 3609 6461",
-        "birthDate": "1988-09-05",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T14:59:55.7225916"
-      },
-      {
-        "id": "9e76c3eb-c8f9-417f-bf31-3d18b5064381",
-        "username": "zizi_aryani",
-        "employeeName": "Dewi Zulaika",
-        "email": "zizi_aryani_Novitasari@yahoo.com",
-        "address": "Psr. Easter no 94, Kepanjen, Peru",
-        "phoneNumber": "0457 3618 419",
-        "birthDate": "1977-05-26",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:55:46.5292936"
-      },
-      {
-        "id": "808d932b-c0f7-4a3b-8ce4-42d7194f7225",
-        "username": "edi.hassanah",
-        "employeeName": "Salsabila Andriani",
-        "email": "edi.hassanah.Kusumo28@yahoo.com",
-        "address": "Kpg. Donny no 57, Rembang, India",
-        "phoneNumber": "0836 3344 3088",
-        "birthDate": "1989-02-08",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:39:15.6487409"
-      },
-      {
-        "id": "72916c22-5109-44c4-a778-63c97c82212b",
-        "username": "indra.suryatmi",
-        "employeeName": "Dadi Prasetyo",
-        "email": "indra.suryatmi.Fujiati90@gmail.co.id",
-        "address": "Jr. Hegmann no 48, Madiun, Holy See (Vatican City State)",
-        "phoneNumber": "(+62) 875 681 659",
-        "birthDate": "2005-10-21",
-        "basicSalary": 5000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T07:38:23.1492446"
-      },
-      {
-        "id": "07fd276d-1541-4777-866f-713b44377ed1",
-        "username": "nasrullah79",
-        "employeeName": "Tari Wulandari",
-        "email": "nasrullah7968@gmail.com",
-        "address": "Kpg. Milo no 28, Bandung, Malaysia",
-        "phoneNumber": "0837 1881 370",
-        "birthDate": "1979-01-17",
-        "basicSalary": 9000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:42:54.8671153"
-      },
-      {
-        "id": "e4521960-01d5-47bc-8ed6-76e3a8798a44",
-        "username": "bella.prasetya",
-        "employeeName": "Jasmin Wahyuni",
-        "email": "bella.prasetya41@gmail.co.id",
-        "address": "Gg. Beer no 5, Rangkasbitung, Australia",
-        "phoneNumber": "0986 3034 945",
-        "birthDate": "1993-07-21",
-        "basicSalary": 4000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:36:01.7160514"
-      },
-      {
-        "id": "655035b5-3b00-499b-8760-bcba59d40568",
-        "username": "taufan.lailasari",
-        "employeeName": "Diana Hasanah",
-        "email": "taufan.lailasari_Usamah@gmail.co.id",
-        "address": "Jr. Frami no 05, Pasuruan, Grenada",
-        "phoneNumber": "0918 4748 950",
-        "birthDate": "2005-06-30",
-        "basicSalary": 6000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T08:17:50.0178332"
-      },
-      {
-        "id": "ad6e9685-0c60-46ff-9d6f-bdc245eec079",
-        "username": "puput82",
-        "employeeName": "Mujur Saefullah",
-        "email": "puput8277@yahoo.co.id",
-        "address": "Ki. Weissnat no 78, Pasangkayu, Macedonia",
-        "phoneNumber": "029 1127 2009",
-        "birthDate": "1988-10-07",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T06:35:25.8409348"
-      },
-      {
-        "id": "03f06765-8018-4bfa-b298-f50f801000b4",
-        "username": "kezia_mansur0",
-        "employeeName": "Aisyah Laksmiwati",
-        "email": "kezia_mansur082@yahoo.com",
-        "address": "Kpg. Gorczany no 89, Sampang, China",
-        "phoneNumber": "0866 483 038",
-        "birthDate": "1992-12-04",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
-          "groupName": "Movies & Grocery",
-          "groupDescription": "Atque in magni.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T06:04:07.9932596"
-      },
-      {
-        "id": "2c276b4c-fcba-4c0b-b38b-123a5c4af6c8",
-        "username": "okta_wastuti17",
-        "employeeName": "Oman Irawan",
-        "email": "okta_wastuti17_Haryanto93@yahoo.com",
-        "address": "Jr. Walton no 20, Majene, Switzerland",
-        "phoneNumber": "0263 4728 6111",
-        "birthDate": "1985-09-10",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T12:29:30.4382781"
-      },
-      {
-        "id": "5de7ce0f-7d5e-4588-bd70-269f464a6a78",
-        "username": "eka42",
-        "employeeName": "Tami Usamah",
-        "email": "eka42.Laksita@gmail.co.id",
-        "address": "Ds. Mariah no 2, Pacitan, Ethiopia",
-        "phoneNumber": "0809 805 859",
-        "birthDate": "1997-08-30",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:28:23.1637831"
-      },
-      {
-        "id": "d1d2b1e2-5a6b-47af-8591-3f2c72d5b755",
-        "username": "viktor.agustina53",
-        "employeeName": "Dadap Suwarno",
-        "email": "viktor.agustina535@yahoo.com",
-        "address": "Kpg. Cullen no 33, Jepara, Wallis and Futuna",
-        "phoneNumber": "0339 2481 0420",
-        "birthDate": "2000-11-14",
-        "basicSalary": 4000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T20:46:18.2162982"
-      },
-      {
-        "id": "ccf91904-5952-4f78-9a07-80a08697cee2",
-        "username": "daryani_anggraini",
-        "employeeName": "Dirja Rajata",
-        "email": "daryani_anggraini.Tamba@yahoo.com",
-        "address": "Ds. Christy no 1, Tahuna, New Zealand",
-        "phoneNumber": "0474 8628 508",
-        "birthDate": "1985-12-29",
-        "basicSalary": 8000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T11:57:30.9928599"
-      },
-      {
-        "id": "79c342c3-c043-418c-92c8-8d58c1459ee3",
-        "username": "jane_napitupulu",
-        "employeeName": "Bella Novitasari",
-        "email": "jane_napitupulu.Fujiati@yahoo.com",
-        "address": "Ds. Shyanne no 44, Boroko, Panama",
-        "phoneNumber": "0390 7213 1250",
-        "birthDate": "1991-01-26",
-        "basicSalary": 7000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T12:09:38.1965485"
-      },
-      {
-        "id": "7c109535-85e8-43e2-9e29-af3bbbfce347",
-        "username": "shakila2",
-        "employeeName": "Edward Budiyanto",
-        "email": "shakila2_Budiman@yahoo.co.id",
-        "address": "Jr. Pollich no 82, Klungkung, Poland",
-        "phoneNumber": "(+62) 544 9575 387",
-        "birthDate": "2002-06-15",
-        "basicSalary": 3000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T17:25:42.8203647"
-      },
-      {
-        "id": "ccc1a1e9-2964-4855-a95a-e58814dcf5b8",
-        "username": "wirda_padmasari",
-        "employeeName": "Marwata Samosir",
-        "email": "wirda_padmasari.Samosir69@yahoo.com",
-        "address": "Ki. O'Keefe no 8, Magetan, Nepal",
-        "phoneNumber": "(+62) 344 3710 6196",
-        "birthDate": "2004-10-28",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T10:16:45.8939597"
-      },
-      {
-        "id": "a0b53e44-ebf8-4680-b7bd-e778f4b872ae",
-        "username": "fitriani48",
-        "employeeName": "Paulin Mayasari",
-        "email": "fitriani4861@gmail.co.id",
-        "address": "Jln. Legros no 22, Bau-Bau, Guyana",
-        "phoneNumber": "0206 0820 557",
-        "birthDate": "1997-10-13",
-        "basicSalary": 6000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
-          "groupName": "Jewelery",
-          "groupDescription": "Illo laborum rerum.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T11:59:50.6166392"
-      },
-      {
-        "id": "2b849890-72f1-4ff2-8da0-17c8ae5ccd17",
-        "username": "candra.irawan",
-        "employeeName": "Wani Utami",
-        "email": "candra.irawan.Setiawan@gmail.com",
-        "address": "Jr. Balistreri no 73, Demak, Lithuania",
-        "phoneNumber": "020 9281 802",
-        "birthDate": "1980-12-07",
-        "basicSalary": 7000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T05:40:22.729544"
-      },
-      {
-        "id": "f8dfc85b-9635-44f4-a543-5a7b34298697",
-        "username": "lidya24",
-        "employeeName": "Violet Lestari",
-        "email": "lidya24.Haryanti21@gmail.com",
-        "address": "Kpg. Greenfelder no 1, Gianyar, Netherlands",
-        "phoneNumber": "029 7439 456",
-        "birthDate": "1983-09-21",
-        "basicSalary": 8000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T12:17:09.8628939"
-      },
-      {
-        "id": "f2282358-001d-46d5-8a0f-618c562d9c59",
-        "username": "indah_wulandari",
-        "employeeName": "Emas Iswahyudi",
-        "email": "indah_wulandari99@yahoo.co.id",
-        "address": "Dk. Marvin no 0, Bogor, Dominica",
-        "phoneNumber": "(+62) 530 0614 9656",
-        "birthDate": "1982-02-06",
-        "basicSalary": 10000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T19:14:03.2318774"
-      },
-      {
-        "id": "24d2984d-960e-4021-95f8-6feffb56b70e",
-        "username": "hasta.hassanah34",
-        "employeeName": "Shania Farida",
-        "email": "hasta.hassanah34_Situmorang@gmail.co.id",
-        "address": "Gg. Pietro no 81, Demak, Serbia",
-        "phoneNumber": "(+62) 972 8895 293",
-        "birthDate": "1982-06-11",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-23T18:46:52.9712895"
-      },
-      {
-        "id": "15b81dc8-704d-4507-85ab-8beaf1ca3a39",
-        "username": "lidya55",
-        "employeeName": "Olga Gunawan",
-        "email": "lidya55_Sitompul6@yahoo.com",
-        "address": "Kpg. Moore no 3, Banjar (Jawa Barat), Djibouti",
-        "phoneNumber": "(+62) 900 7918 2917",
-        "birthDate": "1996-05-01",
-        "basicSalary": 9000000,
-        "status": "ACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T04:51:44.815516"
-      },
-      {
-        "id": "83007337-4132-43d5-aa20-ea4a5527e631",
-        "username": "zizi_wahyuni22",
-        "employeeName": "Murti Mustofa",
-        "email": "zizi_wahyuni22_Simbolon@yahoo.co.id",
-        "address": "Gg. Sanford no 7, Kudus, Saint Pierre and Miquelon",
-        "phoneNumber": "(+62) 716 4932 9583",
-        "birthDate": "1983-02-27",
-        "basicSalary": 10000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:59:55.3894689"
-      },
-      {
-        "id": "ef1e0d62-1570-4125-afab-f924abb8d85b",
-        "username": "nardi40",
-        "employeeName": "Unjani Lailasari",
-        "email": "nardi40.Utama58@yahoo.com",
-        "address": "Ki. Coty no 6, Kajen, Puerto Rico",
-        "phoneNumber": "0797 2713 8487",
-        "birthDate": "1979-05-05",
-        "basicSalary": 3000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T03:51:38.9190786"
-      },
-      {
-        "id": "5b39c100-e42d-416c-b1ac-ff9597ebf991",
-        "username": "kamal_wasita",
-        "employeeName": "Kusuma Latupono",
-        "email": "kamal_wasita.Pratama@yahoo.com",
-        "address": "Gg. Moen no 46, Garut, Belarus",
-        "phoneNumber": "0814 9000 849",
-        "birthDate": "2002-12-24",
-        "basicSalary": 7000000,
-        "status": "INACTIVE",
-        "group": {
-          "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
-          "groupName": "Baby",
-          "groupDescription": "Consequatur qui consectetur.",
-          "employeeResponses": null
-        },
-        "createdAt": "2024-05-24T01:28:10.0152467"
-      }
-    ]
-  }
+  "statusCode": 200,
+  "status": "OK",
+  "message": "Employees found successfully",
+  "pageResult": null,
+  "data": [
+    {
+      "id": "abd76f86-0ae1-4537-8db6-13f97abe3e06",
+      "username": "wira65",
+      "firstName": "Salsabila",
+      "lastName": "Kusmawati",
+      "email": "wira65_Prastuti@gmail.co.id",
+      "address": "Gg. Eldridge no 79, Jember, Gabon",
+      "phoneNumber": "(+62) 993 2287 5983",
+      "birthDate": "1997-04-29",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:17:18.1319512"
+    },
+    {
+      "id": "b6c5dc71-72d3-4cca-9ff7-270668a93c7a",
+      "username": "bancar_namaga",
+      "firstName": "Hartana",
+      "lastName": "Haryanto",
+      "email": "bancar_namaga1@gmail.co.id",
+      "address": "Gg. Kali no 18, Ruteng, Saint Pierre and Miquelon",
+      "phoneNumber": "(+62) 872 3050 3063",
+      "birthDate": "2000-06-20",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:50:28.1458128"
+    },
+    {
+      "id": "8d2eef15-bb62-4608-a369-5e770f62b464",
+      "username": "icha.lestari",
+      "firstName": "Jaka",
+      "lastName": "Haryanto",
+      "email": "icha.lestari_Saptono57@yahoo.co.id",
+      "address": "Jln. Edyth no 9, Sukoharjo, Iceland",
+      "phoneNumber": "(+62) 24 4483 1002",
+      "birthDate": "1983-07-27",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:10:06.7761675"
+    },
+    {
+      "id": "91a7a3a3-b30e-44e8-949d-725a1361f82f",
+      "username": "ajimin49",
+      "firstName": "Diana",
+      "lastName": "Agustina",
+      "email": "ajimin49_Mandasari74@yahoo.com",
+      "address": "Ds. Sunny no 2, Bolaang Uki, Guatemala",
+      "phoneNumber": "(+62) 633 7189 6502",
+      "birthDate": "2004-06-17",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:07:25.3633035"
+    },
+    {
+      "id": "e6cd884e-fdf8-4d66-83e1-7c0333cad84f",
+      "username": "nyoman.yuliarti65",
+      "firstName": "Kajen",
+      "lastName": "Napitupulu",
+      "email": "nyoman.yuliarti65.Palastri@yahoo.co.id",
+      "address": "Ki. Stiedemann no 6, Mbay, Costa Rica",
+      "phoneNumber": "0880 489 671",
+      "birthDate": "2001-04-15",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:46:19.6148996"
+    },
+    {
+      "id": "8a32f775-2cc2-4428-b6b2-b2b80e54f892",
+      "username": "darimin91",
+      "firstName": "Anom",
+      "lastName": "Maryadi",
+      "email": "darimin91.Halimah@yahoo.com",
+      "address": "Ki. Kayla no 27, Kwandang, Tajikistan",
+      "phoneNumber": "(+62) 344 8382 0914",
+      "birthDate": "2001-01-15",
+      "basicSalary": 5000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:19:31.4519304"
+    },
+    {
+      "id": "04c225dd-17f1-4733-9b97-d9749ba04175",
+      "username": "ilsa_utami87",
+      "firstName": "Eka",
+      "lastName": "Yuliarti",
+      "email": "ilsa_utami87_Pratama@yahoo.com",
+      "address": "Kpg. Osinski no 98, Ponorogo, Morocco",
+      "phoneNumber": "(+62) 717 0539 847",
+      "birthDate": "1979-11-24",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T06:10:56.2219214"
+    },
+    {
+      "id": "6c3b0e80-c0e6-4bb1-bcee-f3463d5c5c7b",
+      "username": "vino.kuswandari5",
+      "firstName": "Gilda",
+      "lastName": "Mandasari",
+      "email": "vino.kuswandari5_Widodo33@yahoo.co.id",
+      "address": "Jln. Hammes no 18, Bolaang Uki, Swaziland",
+      "phoneNumber": "0872 8160 4382",
+      "birthDate": "1988-01-17",
+      "basicSalary": 7000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "060ad1ad-b92f-4719-b6f2-1b23859216af",
+        "groupName": "Clothing & Health",
+        "groupDescription": "Eum praesentium blanditiis.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T13:45:11.8277895"
+    },
+    {
+      "id": "9f5c1be3-b557-4a96-a17f-0ab63ff25a6b",
+      "username": "darmana68",
+      "firstName": "Karen",
+      "lastName": "Riyanti",
+      "email": "darmana68.Uyainah@gmail.com",
+      "address": "Psr. Ricky no 46, Sumbawa Besar, Nicaragua",
+      "phoneNumber": "0866 337 161",
+      "birthDate": "1983-10-14",
+      "basicSalary": 4000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:13:41.882617"
+    },
+    {
+      "id": "14aef81a-69bf-42c9-a8f7-2b218d2e4e26",
+      "username": "johan72",
+      "firstName": "Hilda",
+      "lastName": "Maryati",
+      "email": "johan7278@yahoo.co.id",
+      "address": "Ki. Edyth no 23, Mamuju, Rwanda",
+      "phoneNumber": "(+62) 309 3845 138",
+      "birthDate": "1990-07-29",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T22:15:00.1644152"
+    },
+    {
+      "id": "49218eb7-dea5-4637-a217-38c915ccd8b0",
+      "username": "putri.anggraini",
+      "firstName": "Aurora",
+      "lastName": "Puspita",
+      "email": "putri.anggraini17@gmail.com",
+      "address": "Ds. Davon no 1, Singaparna, Bolivia",
+      "phoneNumber": "0635 3878 2625",
+      "birthDate": "1983-02-09",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:44:33.4054487"
+    },
+    {
+      "id": "76f3791c-3a49-40d9-a8dd-49ec8dfd9921",
+      "username": "septi.zulkarnain",
+      "firstName": "Bagus",
+      "lastName": "Damanik",
+      "email": "septi.zulkarnain.Nurdiyanti@yahoo.com",
+      "address": "Jr. Barney no 00, Ratahan, Mayotte",
+      "phoneNumber": "(+62) 722 4182 797",
+      "birthDate": "2006-02-25",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:42:10.9018341"
+    },
+    {
+      "id": "643859fd-acb8-415e-83c1-4ff641655134",
+      "username": "devi38",
+      "firstName": "Padma",
+      "lastName": "Uyainah",
+      "email": "devi3810@gmail.co.id",
+      "address": "Kpg. Grimes no 55, Sengkang, Gibraltar",
+      "phoneNumber": "027 5795 8007",
+      "birthDate": "1994-09-21",
+      "basicSalary": 3000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T17:14:54.797186"
+    },
+    {
+      "id": "18a59ae1-5464-47ff-bf6e-507ba3981bfd",
+      "username": "bajragin28",
+      "firstName": "Queen",
+      "lastName": "Rahmawati",
+      "email": "bajragin2826@yahoo.co.id",
+      "address": "Psr. Lebsack no 7, Tilamuta, Christmas Island",
+      "phoneNumber": "0852 8618 617",
+      "birthDate": "1992-02-02",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T02:24:40.1045993"
+    },
+    {
+      "id": "47954fca-2354-4be8-8e81-6039cf1e35da",
+      "username": "agnes34",
+      "firstName": "Bakijan",
+      "lastName": "Saputra",
+      "email": "agnes34_Dabukke90@yahoo.co.id",
+      "address": "Dk. Pacocha no 22, Raba, Malta",
+      "phoneNumber": "(+62) 313 7998 4753",
+      "birthDate": "1998-05-03",
+      "basicSalary": 3000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T19:09:53.9025273"
+    },
+    {
+      "id": "fd3c0f05-523a-4520-8d72-611f10918fc0",
+      "username": "pangestu.rahmawati42",
+      "firstName": "Irwan",
+      "lastName": "Hardiansyah",
+      "email": "pangestu.rahmawati42.Prastuti81@gmail.co.id",
+      "address": "Dk. Botsford no 4, Banyumas, Seychelles",
+      "phoneNumber": "(+62) 937 3110 0988",
+      "birthDate": "2001-09-19",
+      "basicSalary": 5000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:28:01.3087968"
+    },
+    {
+      "id": "3b36d0ed-0496-45b7-a695-75fdd5353420",
+      "username": "jaswadi72",
+      "firstName": "Rahman",
+      "lastName": "Saptono",
+      "email": "jaswadi723@yahoo.co.id",
+      "address": "Dk. O'Kon no 58, Blitar, Congo",
+      "phoneNumber": "0373 3387 692",
+      "birthDate": "1982-01-17",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:48:32.5688226"
+    },
+    {
+      "id": "ccaa4f6e-9047-4d7e-8cd9-80df1dcc970f",
+      "username": "daliman57",
+      "firstName": "Aswani",
+      "lastName": "Mangunsong",
+      "email": "daliman5717@gmail.co.id",
+      "address": "Kpg. Dicki no 9, Taliwang, Lao People's Democratic Republic",
+      "phoneNumber": "(+62) 891 270 508",
+      "birthDate": "1988-04-28",
+      "basicSalary": 4000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T07:02:49.1830937"
+    },
+    {
+      "id": "fee22500-5954-4471-bc59-a1f300e3b298",
+      "username": "hana_rajasa",
+      "firstName": "Uchita",
+      "lastName": "Usada",
+      "email": "hana_rajasa70@yahoo.co.id",
+      "address": "Ds. Rosalee no 32, Cirebon, Jersey",
+      "phoneNumber": "0748 3002 492",
+      "birthDate": "1986-07-27",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T00:54:26.7698828"
+    },
+    {
+      "id": "27071e30-d5a6-46d4-b195-a8841e603e3d",
+      "username": "elon28",
+      "firstName": "Surya",
+      "lastName": "Suwarno",
+      "email": "elon28.Putra99@yahoo.co.id",
+      "address": "Jr. Kassulke no 24, Jombang, Honduras",
+      "phoneNumber": "029 6090 381",
+      "birthDate": "2000-08-23",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T19:44:45.9625389"
+    },
+    {
+      "id": "1cb00a15-bc21-4f7c-99f4-c835eb30ea55",
+      "username": "ajiman_prakasa37",
+      "firstName": "Kariman",
+      "lastName": "Prasetya",
+      "email": "ajiman_prakasa3764@yahoo.co.id",
+      "address": "Jr. Melany no 5, Baa, Slovakia (Slovak Republic)",
+      "phoneNumber": "0988 3750 9781",
+      "birthDate": "1987-05-14",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "db35c916-b303-47b8-b954-435b2fdf1c3f",
+        "groupName": "Health, Games & Shoes",
+        "groupDescription": "Dolorum non voluptatem.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T12:31:05.4238676"
+    },
+    {
+      "id": "244b258b-125b-4f61-a968-12147482b80b",
+      "username": "laila.prasasta",
+      "firstName": "Surya",
+      "lastName": "Haryanto",
+      "email": "laila.prasasta_Nasyiah@yahoo.com",
+      "address": "Psr. Pfeffer no 7, Suwawa, Libyan Arab Jamahiriya",
+      "phoneNumber": "(+62) 624 9556 3171",
+      "birthDate": "1996-03-15",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T09:13:10.5785193"
+    },
+    {
+      "id": "aa6cc686-280e-4257-a9c5-13cae3273a1b",
+      "username": "puput.budiman44",
+      "firstName": "Jaya",
+      "lastName": "Hakim",
+      "email": "puput.budiman4495@yahoo.co.id",
+      "address": "Kpg. Murazik no 13, Wonosobo, United States of America",
+      "phoneNumber": "(+62) 805 0552 359",
+      "birthDate": "1983-08-31",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:40:00.2717684"
+    },
+    {
+      "id": "e610e181-c1e6-435d-aecd-366009cf2591",
+      "username": "qori.haryanti",
+      "firstName": "Dinda",
+      "lastName": "Rahimah",
+      "email": "qori.haryanti_Rahimah62@yahoo.co.id",
+      "address": "Dk. Tommie no 7, Depok, Virgin Islands, U.S.",
+      "phoneNumber": "(+62) 25 4856 657",
+      "birthDate": "1985-03-11",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:41:39.7028271"
+    },
+    {
+      "id": "93b35027-56a5-4b3c-8b82-3d179451a08f",
+      "username": "jane_namaga",
+      "firstName": "Tomi",
+      "lastName": "Hardiansyah",
+      "email": "jane_namaga_Yuniar77@yahoo.com",
+      "address": "Jln. Harmon no 9, Ngamprah, Faroe Islands",
+      "phoneNumber": "(+62) 805 028 999",
+      "birthDate": "1983-10-10",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T14:28:15.8289023"
+    },
+    {
+      "id": "b0253841-3165-473f-9e01-4c075f199212",
+      "username": "gabriella.iswahyudi63",
+      "firstName": "Dalima",
+      "lastName": "Padmasari",
+      "email": "gabriella.iswahyudi63.Pratama76@yahoo.co.id",
+      "address": "Jln. Deangelo no 4, Cirebon, French Polynesia",
+      "phoneNumber": "(+62) 409 2003 2097",
+      "birthDate": "2005-10-13",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:11:27.6674693"
+    },
+    {
+      "id": "5694e4ed-39db-47a8-b389-69a5e49fb980",
+      "username": "indah.mardhiyah",
+      "firstName": "Ika",
+      "lastName": "Yolanda",
+      "email": "indah.mardhiyah.Sinaga@gmail.com",
+      "address": "Jr. Lemke no 8, Bau-Bau, Maldives",
+      "phoneNumber": "0823 011 634",
+      "birthDate": "1981-12-21",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T05:38:07.2145598"
+    },
+    {
+      "id": "d909b313-c5ce-457e-a14f-6b63137263e6",
+      "username": "mustofa.wijayanti90",
+      "firstName": "Adikara",
+      "lastName": "Ramadan",
+      "email": "mustofa.wijayanti9074@yahoo.co.id",
+      "address": "Gg. Howell no 9, Singaraja, Sweden",
+      "phoneNumber": "(+62) 649 2489 6724",
+      "birthDate": "1991-07-01",
+      "basicSalary": 4000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T15:21:16.3639428"
+    },
+    {
+      "id": "a194e101-cb67-4d2a-abb1-94cd7c5138bf",
+      "username": "setya_hasanah",
+      "firstName": "Daliono",
+      "lastName": "Mahendra",
+      "email": "setya_hasanah.Fujiati@gmail.co.id",
+      "address": "Jln. Mosciski no 34, Parigi, Costa Rica",
+      "phoneNumber": "(+62) 624 7379 9871",
+      "birthDate": "1980-05-01",
+      "basicSalary": 3000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:03:25.4254445"
+    },
+    {
+      "id": "2a474b48-09fa-4d23-ac5d-98b7360aed5e",
+      "username": "jabal12",
+      "firstName": "Pardi",
+      "lastName": "Haryanto",
+      "email": "jabal12.Susanti@yahoo.co.id",
+      "address": "Kpg. Windler no 66, Bondowoso, Bahamas",
+      "phoneNumber": "0355 1322 722",
+      "birthDate": "1994-06-07",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T02:41:29.9248123"
+    },
+    {
+      "id": "aa5139b8-49bc-41d7-a151-a022a5c73065",
+      "username": "kenzie43",
+      "firstName": "Zulfa",
+      "lastName": "Yolanda",
+      "email": "kenzie4343@gmail.co.id",
+      "address": "Ds. Cary no 02, Banyuwangi, Belarus",
+      "phoneNumber": "029 7623 333",
+      "birthDate": "2000-11-23",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:53:57.9254492"
+    },
+    {
+      "id": "c491b461-e322-4ff6-8723-a24401df9c2f",
+      "username": "michelle56",
+      "firstName": "Kania",
+      "lastName": "Hartati",
+      "email": "michelle5657@yahoo.com",
+      "address": "Psr. Ethan no 6, Majalengka, Indonesia",
+      "phoneNumber": "0665 7100 3472",
+      "birthDate": "1993-01-28",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T02:28:17.9742537"
+    },
+    {
+      "id": "e1a25b01-a973-442e-a63c-e09a684b207c",
+      "username": "cakrabuana_wahyudin",
+      "firstName": "Malik",
+      "lastName": "Kuswoyo",
+      "email": "cakrabuana_wahyudin80@yahoo.com",
+      "address": "Dk. Hailee no 0, Sumedang, Turkmenistan",
+      "phoneNumber": "(+62) 577 3661 6034",
+      "birthDate": "1999-06-21",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T14:43:39.7332651"
+    },
+    {
+      "id": "40d552ce-55c7-4b56-bc3b-e48d9fbfa4f7",
+      "username": "adika42",
+      "firstName": "Dalima",
+      "lastName": "Halimah",
+      "email": "adika42.Sihombing21@gmail.com",
+      "address": "Ds. Cooper no 2, Gorontalo, Seychelles",
+      "phoneNumber": "(+62) 21 7179 5808",
+      "birthDate": "1979-12-30",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "a9085dd3-d537-4d43-b45a-61cbdf91cbf7",
+        "groupName": "Industrial",
+        "groupDescription": "Hic totam non.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:29:51.3739569"
+    },
+    {
+      "id": "c0349406-94e7-4194-be3a-167274918e0b",
+      "username": "anastasia_prastuti3",
+      "firstName": "Usyi",
+      "lastName": "Yuliarti",
+      "email": "anastasia_prastuti312@gmail.com",
+      "address": "Ki. Kamille no 4, Singaraja, Bulgaria",
+      "phoneNumber": "(+62) 363 9428 8979",
+      "birthDate": "1998-04-22",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:51:51.4855084"
+    },
+    {
+      "id": "fb153798-4a0b-40cd-ba1c-1b71ef316a26",
+      "username": "vino_mangunsong",
+      "firstName": "Carla",
+      "lastName": "Palastri",
+      "email": "vino_mangunsong_Utami@yahoo.com",
+      "address": "Kpg. Laney no 01, Wonosobo, Palau",
+      "phoneNumber": "(+62) 913 5956 832",
+      "birthDate": "2002-12-15",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T05:25:01.0268114"
+    },
+    {
+      "id": "47b17a1e-9f5a-4f16-a7a4-29e4ba70af8b",
+      "username": "galar77",
+      "firstName": "Gaman",
+      "lastName": "Tarihoran",
+      "email": "galar7747@gmail.co.id",
+      "address": "Jln. Weber no 8, Bungku, Kuwait",
+      "phoneNumber": "(+62) 678 5234 9196",
+      "birthDate": "2006-01-31",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T23:00:27.3820705"
+    },
+    {
+      "id": "019f6e63-0d50-4a6b-9bbc-2f2c02575f4d",
+      "username": "eluh_waskita",
+      "firstName": "Nilam",
+      "lastName": "Kusmawati",
+      "email": "eluh_waskita.Hidayanto@gmail.co.id",
+      "address": "Dk. Hyatt no 19, Bangil, Cote d'Ivoire",
+      "phoneNumber": "(+62) 486 4054 6053",
+      "birthDate": "1991-04-05",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:14:26.5049837"
+    },
+    {
+      "id": "8ed287e8-8c62-48c3-a5d5-2f89c3311936",
+      "username": "suci6",
+      "firstName": "Purwadi",
+      "lastName": "Jailani",
+      "email": "suci647@yahoo.co.id",
+      "address": "Gg. Gusikowski no 5, Selong, Micronesia",
+      "phoneNumber": "(+62) 673 1291 2665",
+      "birthDate": "2000-09-05",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T04:15:32.6710716"
+    },
+    {
+      "id": "33d1a569-4067-4e57-a714-72a554d63a5d",
+      "username": "olivia_prakasa",
+      "firstName": "Raharja",
+      "lastName": "Pratama",
+      "email": "olivia_prakasa_Laksita@yahoo.com",
+      "address": "Gg. Daniella no 40, Jakarta, Puerto Rico",
+      "phoneNumber": "(+62) 206 2772 236",
+      "birthDate": "1982-03-26",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:48:20.2599452"
+    },
+    {
+      "id": "208221e8-2740-4b7f-ad49-7ea854ae8e78",
+      "username": "gamani.pranowo",
+      "firstName": "Jindra",
+      "lastName": "Siregar",
+      "email": "gamani.pranowo_Anggraini@gmail.com",
+      "address": "Kpg. Grant no 0, Anyer, Lebanon",
+      "phoneNumber": "0838 311 009",
+      "birthDate": "1996-01-26",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T16:10:03.8338716"
+    },
+    {
+      "id": "e0f98078-efab-4af7-9765-8efbb863ad31",
+      "username": "kawaca.nuraini",
+      "firstName": "Balidin",
+      "lastName": "Utama",
+      "email": "kawaca.nuraini.Damanik64@gmail.com",
+      "address": "Psr. Buddy no 5, Karangasem, Algeria",
+      "phoneNumber": "0973 4220 9943",
+      "birthDate": "2006-01-20",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T07:24:49.4988383"
+    },
+    {
+      "id": "00187e56-3026-499a-bbe9-93612ad2d43d",
+      "username": "uchita18",
+      "firstName": "Rini",
+      "lastName": "Hassanah",
+      "email": "uchita18_Hasanah@yahoo.co.id",
+      "address": "Ki. Art no 86, Rumbia, Slovenia",
+      "phoneNumber": "(+62) 254 8457 312",
+      "birthDate": "2000-06-29",
+      "basicSalary": 4000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:20:45.9014196"
+    },
+    {
+      "id": "c056fb90-429e-423f-9738-ac08bbfa3fba",
+      "username": "kasiyah_pertiwi28",
+      "firstName": "Virman",
+      "lastName": "Thamrin",
+      "email": "kasiyah_pertiwi28.Suryatmi0@gmail.com",
+      "address": "Ki. Arnold no 5, Boroko, New Zealand",
+      "phoneNumber": "0805 4439 1293",
+      "birthDate": "1988-05-24",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T11:47:25.5642171"
+    },
+    {
+      "id": "ba73b669-6948-41f0-abe5-af5674c6497a",
+      "username": "usyi_lestari",
+      "firstName": "Latif",
+      "lastName": "Saputra",
+      "email": "usyi_lestari_Yolanda76@gmail.com",
+      "address": "Kpg. Kimberly no 47, Palopo, Spain",
+      "phoneNumber": "022 8892 754",
+      "birthDate": "1977-07-24",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:43:54.3158687"
+    },
+    {
+      "id": "9b052b30-3350-48db-b316-c0ff693c99b7",
+      "username": "sarah_yuliarti",
+      "firstName": "Darmaji",
+      "lastName": "Sirait",
+      "email": "sarah_yuliarti32@gmail.co.id",
+      "address": "Ds. Mariana no 4, Baa, Swaziland",
+      "phoneNumber": "0410 3859 524",
+      "birthDate": "1988-01-12",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:13:44.384991"
+    },
+    {
+      "id": "643238ed-6750-4850-a713-d64dfc94a227",
+      "username": "darsirah71",
+      "firstName": "Citra",
+      "lastName": "Permata",
+      "email": "darsirah71.Puspasari35@gmail.com",
+      "address": "Ds. Micaela no 0, Boyolali, Germany",
+      "phoneNumber": "0458 4822 2363",
+      "birthDate": "1988-03-16",
+      "basicSalary": 3000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:09:00.9768471"
+    },
+    {
+      "id": "1a7df2e0-9e4e-4ad3-b077-e02e94dce90d",
+      "username": "daryani_marbun69",
+      "firstName": "Wasis",
+      "lastName": "Wahyudin",
+      "email": "daryani_marbun69_Kusmawati@yahoo.com",
+      "address": "Jr. Mraz no 37, Wonogiri, Sri Lanka",
+      "phoneNumber": "(+62) 512 6012 7560",
+      "birthDate": "2003-03-01",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T21:37:11.532804"
+    },
+    {
+      "id": "4162a5b4-e7f1-4e78-b349-ec11ffcd7e94",
+      "username": "kamila75",
+      "firstName": "Bahuwirya",
+      "lastName": "Pranowo",
+      "email": "kamila753@yahoo.com",
+      "address": "Dk. Gleichner no 07, Sumbawa Besar, Canada",
+      "phoneNumber": "(+62) 543 4423 1555",
+      "birthDate": "1982-08-02",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "0e9d4e08-c53f-41d5-8008-802a0ace09fb",
+        "groupName": "Shoes, Garden & Tools",
+        "groupDescription": "Ut architecto placeat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:00:40.0621358"
+    },
+    {
+      "id": "9e498434-aa13-4106-8d3c-955b63a2f050",
+      "username": "eluh_namaga",
+      "firstName": "Johan",
+      "lastName": "Mangunsong",
+      "email": "eluh_namaga_Uyainah@gmail.co.id",
+      "address": "Kpg. Sauer no 5, Wonogiri, Belarus",
+      "phoneNumber": "(+62) 20 0437 5298",
+      "birthDate": "1985-04-09",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
+        "groupName": "Health",
+        "groupDescription": "Quis commodi fugiat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:54:41.5715252"
+    },
+    {
+      "id": "fe623f52-b1fd-4809-9465-af8120179f22",
+      "username": "vicky_wijaya",
+      "firstName": "Harsaya",
+      "lastName": "Saptono",
+      "email": "vicky_wijaya.Purwanti29@gmail.co.id",
+      "address": "Ki. Deanna no 06, Palu, Finland",
+      "phoneNumber": "0252 4398 882",
+      "birthDate": "2003-01-20",
+      "basicSalary": 5000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
+        "groupName": "Health",
+        "groupDescription": "Quis commodi fugiat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T00:53:50.370285"
+    },
+    {
+      "id": "438b8f66-d164-4d5a-8877-beb7185906a7",
+      "username": "gamblang_megantara",
+      "firstName": "Gamblang",
+      "lastName": "Prasasta",
+      "email": "gamblang_megantara_Sudiati10@yahoo.com",
+      "address": "Kpg. Shaylee no 93, Cianjur, Republic of Korea",
+      "phoneNumber": "(+62) 921 2265 9051",
+      "birthDate": "1990-05-24",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "d649b0ed-d3f0-4067-bfbe-85bdf2cb4328",
+        "groupName": "Health",
+        "groupDescription": "Quis commodi fugiat.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T00:05:08.1074386"
+    },
+    {
+      "id": "a7e43660-3286-4279-a326-0aa1ce8f9bb9",
+      "username": "damar_adriansyah",
+      "firstName": "Jail",
+      "lastName": "Firmansyah",
+      "email": "damar_adriansyah.Nainggolan91@gmail.com",
+      "address": "Psr. Cathryn no 1, Situbondo, Trinidad and Tobago",
+      "phoneNumber": "(+62) 741 6435 212",
+      "birthDate": "1982-12-02",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T11:06:37.4756605"
+    },
+    {
+      "id": "b264ee5e-9c09-49fc-a4cb-0f5b097114de",
+      "username": "asirwanda_mahendra",
+      "firstName": "Dina",
+      "lastName": "Rahimah",
+      "email": "asirwanda_mahendra.Mandasari@gmail.co.id",
+      "address": "Ds. Paucek no 2, Banjar (Jawa Barat), American Samoa",
+      "phoneNumber": "(+62) 567 3459 2970",
+      "birthDate": "1986-07-19",
+      "basicSalary": 7000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:04:22.6603971"
+    },
+    {
+      "id": "1392467c-79bb-4c5c-82b8-6fd058ce0766",
+      "username": "pangeran.adriansyah25",
+      "firstName": "Ganjaran",
+      "lastName": "Haryanto",
+      "email": "pangeran.adriansyah25.Lestari96@yahoo.com",
+      "address": "Jr. Marion no 3, Tabanan, Togo",
+      "phoneNumber": "(+62) 356 2606 9254",
+      "birthDate": "1997-10-04",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T09:26:32.7829433"
+    },
+    {
+      "id": "7994dd20-42db-4ca3-90cc-7b11dd6ce8f6",
+      "username": "pranawa_pudjiastuti99",
+      "firstName": "Mahmud",
+      "lastName": "Hutagalung",
+      "email": "pranawa_pudjiastuti99_Nasyiah@gmail.com",
+      "address": "Ds. Greenfelder no 95, Selong, Oman",
+      "phoneNumber": "0764 1239 0118",
+      "birthDate": "2001-04-06",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T14:19:34.0871986"
+    },
+    {
+      "id": "2588aceb-6ae5-4665-9183-7d1745c92e01",
+      "username": "manah_zulkarnain",
+      "firstName": "Drajat",
+      "lastName": "Hardiansyah",
+      "email": "manah_zulkarnain51@gmail.co.id",
+      "address": "Jr. Huel no 6, Larantuka, Mongolia",
+      "phoneNumber": "(+62) 25 3209 5898",
+      "birthDate": "1986-11-28",
+      "basicSalary": 3000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T05:13:26.1167883"
+    },
+    {
+      "id": "8ed0aa31-7a24-4fee-84cf-8a1911767fa9",
+      "username": "jarwadi74",
+      "firstName": "Talia",
+      "lastName": "Wulandari",
+      "email": "jarwadi74_Natsir@gmail.com",
+      "address": "Gg. Kuhlman no 6, Singaraja, New Caledonia",
+      "phoneNumber": "(+62) 844 0008 2239",
+      "birthDate": "1980-08-16",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T07:53:28.4837417"
+    },
+    {
+      "id": "5b7f3745-bab8-427c-aeda-99293e03ff8c",
+      "username": "eka89",
+      "firstName": "Wardaya",
+      "lastName": "Rajata",
+      "email": "eka8992@yahoo.co.id",
+      "address": "Jr. Bogisich no 4, Kebumen, Finland",
+      "phoneNumber": "0948 0227 6412",
+      "birthDate": "1976-08-29",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T06:05:44.7758311"
+    },
+    {
+      "id": "72e90bf0-88d4-4b1b-8e6a-9bbd94cc2fe3",
+      "username": "salimah.nugroho76",
+      "firstName": "Yusuf",
+      "lastName": "Marpaung",
+      "email": "salimah.nugroho76_Dongoran76@yahoo.co.id",
+      "address": "Ki. Janis no 57, Atambua, Nepal",
+      "phoneNumber": "028 2467 8758",
+      "birthDate": "1996-02-23",
+      "basicSalary": 4000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:50:51.811338"
+    },
+    {
+      "id": "ce491714-e71f-40da-bfff-a113036b7172",
+      "username": "erik.rahmawati55",
+      "firstName": "Jumadi",
+      "lastName": "Permadi",
+      "email": "erik.rahmawati555@gmail.com",
+      "address": "Dk. Armstrong no 7, Madiun, Cambodia",
+      "phoneNumber": "(+62) 761 3250 093",
+      "birthDate": "1991-09-08",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T04:53:56.9343187"
+    },
+    {
+      "id": "5358eb2d-bd2f-4a84-bc9b-c2ac1cd82810",
+      "username": "ajiman_prakasa91",
+      "firstName": "Belinda",
+      "lastName": "Nurdiyanti",
+      "email": "ajiman_prakasa91_Samosir@gmail.com",
+      "address": "Ds. Fletcher no 90, Cilacap, Tokelau",
+      "phoneNumber": "(+62) 586 2951 914",
+      "birthDate": "2001-09-02",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:07:12.0979215"
+    },
+    {
+      "id": "c740a1ed-cbcf-4a1c-8b68-c40a1cb5b94f",
+      "username": "jaiman.adriansyah",
+      "firstName": "Dinda",
+      "lastName": "Wulandari",
+      "email": "jaiman.adriansyah_Rajata23@yahoo.com",
+      "address": "Ki. Sofia no 6, Jepara, Nauru",
+      "phoneNumber": "0739 9077 0272",
+      "birthDate": "2003-01-31",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T11:40:25.8627775"
+    },
+    {
+      "id": "40cbdb93-fd18-4d47-be7f-ce21cb0d520d",
+      "username": "fitriani43",
+      "firstName": "Kamila",
+      "lastName": "Hassanah",
+      "email": "fitriani43_Pradana0@yahoo.co.id",
+      "address": "Dk. Mallory no 8, Indramayu, Chad",
+      "phoneNumber": "(+62) 857 9169 7204",
+      "birthDate": "1976-12-20",
+      "basicSalary": 5000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T00:57:25.6580884"
+    },
+    {
+      "id": "a291e24a-edaa-4bbd-8bbd-cf47d4d2f559",
+      "username": "diah56",
+      "firstName": "Gadang",
+      "lastName": "Hutagalung",
+      "email": "diah56_Puspita26@yahoo.co.id",
+      "address": "Ki. Raynor no 0, Kebumen, Guyana",
+      "phoneNumber": "021 5403 7440",
+      "birthDate": "1980-11-11",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:38:47.1621249"
+    },
+    {
+      "id": "e26c2ba4-3ccd-47e9-a7b7-e7c2a28551e9",
+      "username": "nurul_nasyiah2",
+      "firstName": "Diana",
+      "lastName": "Mardhiyah",
+      "email": "nurul_nasyiah2_Sihombing@gmail.com",
+      "address": "Ki. Cole no 69, Banjarnegara, Lebanon",
+      "phoneNumber": "(+62) 808 0879 1041",
+      "birthDate": "1986-02-26",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "6598fdb2-8009-41d2-9662-97ceaf7401e2",
+        "groupName": "Industrial",
+        "groupDescription": "Recusandae doloremque quos.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T16:26:00.7830958"
+    },
+    {
+      "id": "1d986dd8-0516-4fbe-ace7-263b09e6a54c",
+      "username": "jumadi_prayoga26",
+      "firstName": "Asmadi",
+      "lastName": "Maulana",
+      "email": "jumadi_prayoga26_Mandasari@yahoo.co.id",
+      "address": "Dk. VonRueden no 04, Bangil, Ireland",
+      "phoneNumber": "(+62) 479 7158 2577",
+      "birthDate": "1992-12-25",
+      "basicSalary": 3000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T17:25:16.1405459"
+    },
+    {
+      "id": "348d1052-9c9e-4fa7-8149-54aa492b31c9",
+      "username": "muni93",
+      "firstName": "Muhammad",
+      "lastName": "Ardianto",
+      "email": "muni9372@yahoo.com",
+      "address": "Ds. Bode no 06, Indramayu, Malaysia",
+      "phoneNumber": "(+62) 378 3692 8174",
+      "birthDate": "1984-03-04",
+      "basicSalary": 3000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:53:39.048118"
+    },
+    {
+      "id": "7ee70c38-5d71-4b69-9ffd-6b1b3017aa71",
+      "username": "laila.safitri7",
+      "firstName": "Luwes",
+      "lastName": "Hutapea",
+      "email": "laila.safitri7_Damanik6@yahoo.com",
+      "address": "Jr. Pfannerstill no 7, Bandung, Kazakhstan",
+      "phoneNumber": "0296 8273 539",
+      "birthDate": "2004-12-09",
+      "basicSalary": 7000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:23:25.3253156"
+    },
+    {
+      "id": "d52ad0a0-68cf-4fd4-bdee-6fed6939da76",
+      "username": "gada_sudiati6",
+      "firstName": "Lukman",
+      "lastName": "Uwais",
+      "email": "gada_sudiati6_Nuraini@gmail.com",
+      "address": "Psr. Bogisich no 09, Dompu, Lao People's Democratic Republic",
+      "phoneNumber": "(+62) 876 7003 3112",
+      "birthDate": "2005-09-06",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T00:11:03.4164541"
+    },
+    {
+      "id": "5f2986a9-468d-4c89-bbc0-90e6dca6ed57",
+      "username": "hasna_farida31",
+      "firstName": "Kasusra",
+      "lastName": "Manullang",
+      "email": "hasna_farida31_Saputra74@yahoo.co.id",
+      "address": "Jr. Harris no 89, Sleman, Martinique",
+      "phoneNumber": "0616 7414 2830",
+      "birthDate": "1996-12-26",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T19:00:09.9126034"
+    },
+    {
+      "id": "3736aba1-3066-497d-8d4c-9524b932d59c",
+      "username": "oman78",
+      "firstName": "Oskar",
+      "lastName": "Firmansyah",
+      "email": "oman7816@yahoo.com",
+      "address": "Kpg. Ardith no 1, Gresik, Western Sahara",
+      "phoneNumber": "0845 852 576",
+      "birthDate": "1997-10-18",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T23:39:30.0983618"
+    },
+    {
+      "id": "05fd5ff5-25c5-4eb6-a9bb-97b39caaca19",
+      "username": "paulin_handayani",
+      "firstName": "Jamil",
+      "lastName": "Firgantoro",
+      "email": "paulin_handayani.Saefullah59@gmail.com",
+      "address": "Psr. Sauer no 28, Trenggalek, Guam",
+      "phoneNumber": "0936 4768 462",
+      "birthDate": "1987-06-25",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T21:54:24.9982421"
+    },
+    {
+      "id": "233fcbaf-efd4-43ca-88b4-9c53f473c318",
+      "username": "wirda10",
+      "firstName": "Olga",
+      "lastName": "Sitorus",
+      "email": "wirda1093@yahoo.com",
+      "address": "Ds. Chandler no 45, Singaraja, Tonga",
+      "phoneNumber": "0349 1471 568",
+      "birthDate": "1999-12-01",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T16:24:36.0954727"
+    },
+    {
+      "id": "c407e7cc-fd67-45f5-bcc5-ccf533d51c5d",
+      "username": "citra.hasanah47",
+      "firstName": "Tedi",
+      "lastName": "Sihombing",
+      "email": "citra.hasanah4739@yahoo.co.id",
+      "address": "Jr. Collins no 2, Buranga, Czech Republic",
+      "phoneNumber": "(+62) 734 0397 3881",
+      "birthDate": "1995-04-07",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "01b88711-6ff5-445d-93ac-aacaafbd62f3",
+        "groupName": "Baby, Computers & Kids",
+        "groupDescription": "Omnis voluptatem suscipit.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T21:50:27.9791521"
+    },
+    {
+      "id": "da4fbc87-1ed3-478e-b747-04b5840aed27",
+      "username": "aisyah_dabukke",
+      "firstName": "Hamima",
+      "lastName": "Rahayu",
+      "email": "aisyah_dabukke.Pratama89@gmail.co.id",
+      "address": "Ki. Nathen no 9, Sidoarjo, Myanmar",
+      "phoneNumber": "0605 3609 6461",
+      "birthDate": "1988-09-05",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T14:59:55.7225916"
+    },
+    {
+      "id": "9e76c3eb-c8f9-417f-bf31-3d18b5064381",
+      "username": "zizi_aryani",
+      "firstName": "Dewi",
+      "lastName": "Zulaika",
+      "email": "zizi_aryani_Novitasari@yahoo.com",
+      "address": "Psr. Easter no 94, Kepanjen, Peru",
+      "phoneNumber": "0457 3618 419",
+      "birthDate": "1977-05-26",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:55:46.5292936"
+    },
+    {
+      "id": "808d932b-c0f7-4a3b-8ce4-42d7194f7225",
+      "username": "edi.hassanah",
+      "firstName": "Salsabila",
+      "lastName": "Andriani",
+      "email": "edi.hassanah.Kusumo28@yahoo.com",
+      "address": "Kpg. Donny no 57, Rembang, India",
+      "phoneNumber": "0836 3344 3088",
+      "birthDate": "1989-02-08",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:39:15.6487409"
+    },
+    {
+      "id": "72916c22-5109-44c4-a778-63c97c82212b",
+      "username": "indra.suryatmi",
+      "firstName": "Dadi",
+      "lastName": "Prasetyo",
+      "email": "indra.suryatmi.Fujiati90@gmail.co.id",
+      "address": "Jr. Hegmann no 48, Madiun, Holy See (Vatican City State)",
+      "phoneNumber": "(+62) 875 681 659",
+      "birthDate": "2005-10-21",
+      "basicSalary": 5000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T07:38:23.1492446"
+    },
+    {
+      "id": "07fd276d-1541-4777-866f-713b44377ed1",
+      "username": "nasrullah79",
+      "firstName": "Tari",
+      "lastName": "Wulandari",
+      "email": "nasrullah7968@gmail.com",
+      "address": "Kpg. Milo no 28, Bandung, Malaysia",
+      "phoneNumber": "0837 1881 370",
+      "birthDate": "1979-01-17",
+      "basicSalary": 9000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:42:54.8671153"
+    },
+    {
+      "id": "e4521960-01d5-47bc-8ed6-76e3a8798a44",
+      "username": "bella.prasetya",
+      "firstName": "Jasmin",
+      "lastName": "Wahyuni",
+      "email": "bella.prasetya41@gmail.co.id",
+      "address": "Gg. Beer no 5, Rangkasbitung, Australia",
+      "phoneNumber": "0986 3034 945",
+      "birthDate": "1993-07-21",
+      "basicSalary": 4000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:36:01.7160514"
+    },
+    {
+      "id": "655035b5-3b00-499b-8760-bcba59d40568",
+      "username": "taufan.lailasari",
+      "firstName": "Diana",
+      "lastName": "Hasanah",
+      "email": "taufan.lailasari_Usamah@gmail.co.id",
+      "address": "Jr. Frami no 05, Pasuruan, Grenada",
+      "phoneNumber": "0918 4748 950",
+      "birthDate": "2005-06-30",
+      "basicSalary": 6000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T08:17:50.0178332"
+    },
+    {
+      "id": "ad6e9685-0c60-46ff-9d6f-bdc245eec079",
+      "username": "puput82",
+      "firstName": "Mujur",
+      "lastName": "Saefullah",
+      "email": "puput8277@yahoo.co.id",
+      "address": "Ki. Weissnat no 78, Pasangkayu, Macedonia",
+      "phoneNumber": "029 1127 2009",
+      "birthDate": "1988-10-07",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T06:35:25.8409348"
+    },
+    {
+      "id": "03f06765-8018-4bfa-b298-f50f801000b4",
+      "username": "kezia_mansur0",
+      "firstName": "Aisyah",
+      "lastName": "Laksmiwati",
+      "email": "kezia_mansur082@yahoo.com",
+      "address": "Kpg. Gorczany no 89, Sampang, China",
+      "phoneNumber": "0866 483 038",
+      "birthDate": "1992-12-04",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "e4329edd-52e2-4ffd-8cea-b170f9d2e6e1",
+        "groupName": "Movies & Grocery",
+        "groupDescription": "Atque in magni.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T06:04:07.9932596"
+    },
+    {
+      "id": "2c276b4c-fcba-4c0b-b38b-123a5c4af6c8",
+      "username": "okta_wastuti17",
+      "firstName": "Oman",
+      "lastName": "Irawan",
+      "email": "okta_wastuti17_Haryanto93@yahoo.com",
+      "address": "Jr. Walton no 20, Majene, Switzerland",
+      "phoneNumber": "0263 4728 6111",
+      "birthDate": "1985-09-10",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T12:29:30.4382781"
+    },
+    {
+      "id": "5de7ce0f-7d5e-4588-bd70-269f464a6a78",
+      "username": "eka42",
+      "firstName": "Tami",
+      "lastName": "Usamah",
+      "email": "eka42.Laksita@gmail.co.id",
+      "address": "Ds. Mariah no 2, Pacitan, Ethiopia",
+      "phoneNumber": "0809 805 859",
+      "birthDate": "1997-08-30",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:28:23.1637831"
+    },
+    {
+      "id": "d1d2b1e2-5a6b-47af-8591-3f2c72d5b755",
+      "username": "viktor.agustina53",
+      "firstName": "Dadap",
+      "lastName": "Suwarno",
+      "email": "viktor.agustina535@yahoo.com",
+      "address": "Kpg. Cullen no 33, Jepara, Wallis and Futuna",
+      "phoneNumber": "0339 2481 0420",
+      "birthDate": "2000-11-14",
+      "basicSalary": 4000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T20:46:18.2162982"
+    },
+    {
+      "id": "ccf91904-5952-4f78-9a07-80a08697cee2",
+      "username": "daryani_anggraini",
+      "firstName": "Dirja",
+      "lastName": "Rajata",
+      "email": "daryani_anggraini.Tamba@yahoo.com",
+      "address": "Ds. Christy no 1, Tahuna, New Zealand",
+      "phoneNumber": "0474 8628 508",
+      "birthDate": "1985-12-29",
+      "basicSalary": 8000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T11:57:30.9928599"
+    },
+    {
+      "id": "79c342c3-c043-418c-92c8-8d58c1459ee3",
+      "username": "jane_napitupulu",
+      "firstName": "Bella",
+      "lastName": "Novitasari",
+      "email": "jane_napitupulu.Fujiati@yahoo.com",
+      "address": "Ds. Shyanne no 44, Boroko, Panama",
+      "phoneNumber": "0390 7213 1250",
+      "birthDate": "1991-01-26",
+      "basicSalary": 7000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T12:09:38.1965485"
+    },
+    {
+      "id": "7c109535-85e8-43e2-9e29-af3bbbfce347",
+      "username": "shakila2",
+      "firstName": "Edward",
+      "lastName": "Budiyanto",
+      "email": "shakila2_Budiman@yahoo.co.id",
+      "address": "Jr. Pollich no 82, Klungkung, Poland",
+      "phoneNumber": "(+62) 544 9575 387",
+      "birthDate": "2002-06-15",
+      "basicSalary": 3000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T17:25:42.8203647"
+    },
+    {
+      "id": "ccc1a1e9-2964-4855-a95a-e58814dcf5b8",
+      "username": "wirda_padmasari",
+      "firstName": "Marwata",
+      "lastName": "Samosir",
+      "email": "wirda_padmasari.Samosir69@yahoo.com",
+      "address": "Ki. O'Keefe no 8, Magetan, Nepal",
+      "phoneNumber": "(+62) 344 3710 6196",
+      "birthDate": "2004-10-28",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T10:16:45.8939597"
+    },
+    {
+      "id": "a0b53e44-ebf8-4680-b7bd-e778f4b872ae",
+      "username": "fitriani48",
+      "firstName": "Paulin",
+      "lastName": "Mayasari",
+      "email": "fitriani4861@gmail.co.id",
+      "address": "Jln. Legros no 22, Bau-Bau, Guyana",
+      "phoneNumber": "0206 0820 557",
+      "birthDate": "1997-10-13",
+      "basicSalary": 6000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "cb2acd62-17cf-4a19-b5c8-c45b60ca5cd0",
+        "groupName": "Jewelery",
+        "groupDescription": "Illo laborum rerum.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T11:59:50.6166392"
+    },
+    {
+      "id": "2b849890-72f1-4ff2-8da0-17c8ae5ccd17",
+      "username": "candra.irawan",
+      "firstName": "Wani",
+      "lastName": "Utami",
+      "email": "candra.irawan.Setiawan@gmail.com",
+      "address": "Jr. Balistreri no 73, Demak, Lithuania",
+      "phoneNumber": "020 9281 802",
+      "birthDate": "1980-12-07",
+      "basicSalary": 7000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T05:40:22.729544"
+    },
+    {
+      "id": "f8dfc85b-9635-44f4-a543-5a7b34298697",
+      "username": "lidya24",
+      "firstName": "Violet",
+      "lastName": "Lestari",
+      "email": "lidya24.Haryanti21@gmail.com",
+      "address": "Kpg. Greenfelder no 1, Gianyar, Netherlands",
+      "phoneNumber": "029 7439 456",
+      "birthDate": "1983-09-21",
+      "basicSalary": 8000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T12:17:09.8628939"
+    },
+    {
+      "id": "f2282358-001d-46d5-8a0f-618c562d9c59",
+      "username": "indah_wulandari",
+      "firstName": "Emas",
+      "lastName": "Iswahyudi",
+      "email": "indah_wulandari99@yahoo.co.id",
+      "address": "Dk. Marvin no 0, Bogor, Dominica",
+      "phoneNumber": "(+62) 530 0614 9656",
+      "birthDate": "1982-02-06",
+      "basicSalary": 10000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T19:14:03.2318774"
+    },
+    {
+      "id": "24d2984d-960e-4021-95f8-6feffb56b70e",
+      "username": "hasta.hassanah34",
+      "firstName": "Shania",
+      "lastName": "Farida",
+      "email": "hasta.hassanah34_Situmorang@gmail.co.id",
+      "address": "Gg. Pietro no 81, Demak, Serbia",
+      "phoneNumber": "(+62) 972 8895 293",
+      "birthDate": "1982-06-11",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-23T18:46:52.9712895"
+    },
+    {
+      "id": "15b81dc8-704d-4507-85ab-8beaf1ca3a39",
+      "username": "lidya55",
+      "firstName": "Olga",
+      "lastName": "Gunawan",
+      "email": "lidya55_Sitompul6@yahoo.com",
+      "address": "Kpg. Moore no 3, Banjar (Jawa Barat), Djibouti",
+      "phoneNumber": "(+62) 900 7918 2917",
+      "birthDate": "1996-05-01",
+      "basicSalary": 9000000,
+      "status": "ACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T04:51:44.815516"
+    },
+    {
+      "id": "83007337-4132-43d5-aa20-ea4a5527e631",
+      "username": "zizi_wahyuni22",
+      "firstName": "Murti",
+      "lastName": "Mustofa",
+      "email": "zizi_wahyuni22_Simbolon@yahoo.co.id",
+      "address": "Gg. Sanford no 7, Kudus, Saint Pierre and Miquelon",
+      "phoneNumber": "(+62) 716 4932 9583",
+      "birthDate": "1983-02-27",
+      "basicSalary": 10000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:59:55.3894689"
+    },
+    {
+      "id": "ef1e0d62-1570-4125-afab-f924abb8d85b",
+      "username": "nardi40",
+      "firstName": "Unjani",
+      "lastName": "Lailasari",
+      "email": "nardi40.Utama58@yahoo.com",
+      "address": "Ki. Coty no 6, Kajen, Puerto Rico",
+      "phoneNumber": "0797 2713 8487",
+      "birthDate": "1979-05-05",
+      "basicSalary": 3000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T03:51:38.9190786"
+    },
+    {
+      "id": "5b39c100-e42d-416c-b1ac-ff9597ebf991",
+      "username": "kamal_wasita",
+      "firstName": "Kusuma",
+      "lastName": "Latupono",
+      "email": "kamal_wasita.Pratama@yahoo.com",
+      "address": "Gg. Moen no 46, Garut, Belarus",
+      "phoneNumber": "0814 9000 849",
+      "birthDate": "2002-12-24",
+      "basicSalary": 7000000,
+      "status": "INACTIVE",
+      "group": {
+        "id": "10abaeec-77f4-4967-9889-e170795e1a7a",
+        "groupName": "Baby",
+        "groupDescription": "Consequatur qui consectetur.",
+        "employeeResponses": null
+      },
+      "description": "2024-05-24T01:28:10.0152467"
+    }
+  ]
+}
